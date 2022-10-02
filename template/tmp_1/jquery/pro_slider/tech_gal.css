@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+.stepcarousel{
+position: relative; /*leave this value alone*/
+overflow: scroll; /*leave this value alone*/
+width: 420px; /*Width of Carousel Viewer itself*/
+height: 282px; /*Height should enough to fit largest content's height*/
+margin:0 auto;
+margin-top:7px;
+}
+
+.stepcarousel .belt{
+position: absolute; /*leave this value alone*/
+left: 0;
+top: 0;
+}
+
+.stepcarousel .panel{
+float: left; /*leave this value alone*/
+overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+/*margin: 10px; margin around each panel*/
+width: 421px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+}
+.stepcarousel .panel .tech_icon{
+float: left; /*leave this value alone*/
+width:190px;
+min-height:60px;
+margin:0 3px 7px 3px;
+background:#f9f9f9;
+padding:6px;
+-webkit-border-radius: 7px;
+-moz-border-radius:7px;
+border-radius:7px;
+border:1px solid #e8e8e8;
+}
+.stepcarousel .panel .tech_icon p{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#353535;
+	font-size:12px;
+	line-height:18px;
+	/*padding:5px;*/
+}
+.stepcarousel .panel .tech_icon p a{
+color:#095f92;
+text-decoration:none;
+}
+.stepcarousel .panel .tech_icon p a:hover{
+text-decoration:underline;
+}

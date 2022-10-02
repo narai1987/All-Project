@@ -1,0 +1,47 @@
+/* CSS import */
+
+@import url('icons.css'); /* Icons */
+@import url('plugins/jquery.qtip.min.css'); /* Qtip */
+/*@import url('plugins/wave-calendar.css');  Calendar */
+/*@import url('plugins/jquery.cleditor.css');  Cleditor */
+/* @import url('plugins/dynamic_table.css'); Dynamic table styling */
+/*@import url('plugins/ui_styling.css');  UI styling */
+/*@import url('plugins/breadcrumbs.css');  Breadcrumbs plugin */
+/* @import url('plugins/colorpicker.css'); Colorpicker plugin */
+/*@import url('plugins/chosen.css');  Chosen select plugin */
+/*@import url('plugins/jquery.tagsinput.css');  Tags input plugin */
+/*@import url('plugins/tipsy.css');  Tipsy plugin */
+/*@import url('plugins/jqueryFileTree.css');  FileTree plugin */
+/*@import url('plugins/prettyPhoto.css');  prettyPhoto plugin */
+/*@import url('plugins/jquery.ibutton.css');  Jquery iButton */
+/*@import url('plugins/lockscreen.css');  Lockscreen */
+/*@import url('../js/google-code-prettify/prettify.css');  googlePretty */
+
+/* ======= Content ======= 
+
+
+/* Chart */
+
+.legend {
+	font-size: 13px !important;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.legendColorBox {
+	padding: 0 3px 0 12px;
+	height: 2px;
+}
+
+.legendColorBox > div {
+	border: none !important;
+}
+
+.legendColorBox > div > div {
+	border-width: 2px !important;
+	width: 10px !important;
+}
+
+.legend table {
+	margin-top: 13px;
+}
+

@@ -1,0 +1,17 @@
+
+
+
+.radios     { padding-top: 18px; background: url(divider.png) repeat-x 0 0; }
+.label_check input,
+.label_radio input  { margin-right: 5px; width:17px; height:16px;}
+
+.has-js .label_check,
+.has-js .label_radio    { padding-left: 10px; }
+.has-js .label_radio    { background: url(../images/radio-off.png) no-repeat; }
+.has-js .label_check    { background: url(../../images/login_popup/check_normal.png) no-repeat; width:17px; height:16px;display: inline-block;
+float: left;
+margin-top: -2px}
+.has-js label.c_on      { background: url(../../images/login_popup/check_active.png) no-repeat; }
+.has-js label.r_on      { background: url(../images/radio-on.png) no-repeat; }
+.has-js .label_check input,
+.has-js .label_radio input  { position: absolute; left: -9999px; }

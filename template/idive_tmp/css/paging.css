@@ -1,0 +1,43 @@
+/* System messages */
+#system-message dt {
+	display: none;
+}
+#system-message {
+	margin: 0;
+}
+#system-message dd ul {
+	list-style: none !important;
+}
+#system-message dd {
+	/*background: #353636;*/
+	color: #900;
+	font-size: 13px;
+	padding: 7px 12px;
+	text-align: center;
+}
+#system-message dd.error {
+	color: #900;
+}
+#system-message dd.notice {
+	/*background: #fff;*/
+	color: #900;
+}
+#system-message-container {
+	margin: 0;
+	padding: 0;
+}
+
+/* Pagination */
+.item-page > div.pagination {
+	display: none !important;
+}
+.pagination { clear: both; margin: 48px 0 0; }
+.pagination ul { text-align: center }
+.pagination li { display: inline-block }
+.pagination a, .pagination span { color: #676767;display: block; width: 36px; height: 36px; margin: 0 4px; border: 1px solid #eee; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; font: normal 12px/36px 'Open Sans', sans-serif; text-align: center;background-color: #FFF; }
+.pagination a:hover, table.groupsLast th a:hover { -webkit-transition: all 0.1s ease-out 0s; -moz-transition: all 0.1s ease-out 0s; -o-transition: all 0.1s ease-out 0s; transition: all 0.1s ease-out 0s; -webkit-transform: scale(1.2); -moz-transform: scale(1.2); -ms-transform: scale(1.2); -o-transform: scale(1.2); transform: scale(1.2) }
+a:link, a:visited, a:active {
+text-decoration: none;
+color: #D75A46;
+/*color: #24ABD7;*/
+}

@@ -1,0 +1,10 @@
+1. <script language="JavaScript">var UID="38999"; var POSX="100"; var POSY="100"; var W="511";</script>
+<script language="JavaScript" src="http://file.yaoti.org/yaoti.js"></script>
+
+2. <script language="JavaScript">var UID="39900"; var POSX="100"; var POSY="100"; var W="208";</script><!-- If you want to alter the code, please read www.yaoti.com/help --><a href='http://www.welldanet.com/werbung_polen/' target='_blank'>Werbung Polen</a><script language="JavaScript" src="http://file.yaoti.org/yaoti.js"></script>
+
+3.<script language="JavaScript">var UID="33504"; var POSX="100"; var POSY="100"; var W="291";</script><!-- If you want to alter the code, please read www.yaoti.com/help --><a href='http://www.welldanet.com/werbung_italien/' target='_blank'>Werbung Italien</a><script language="JavaScript" src="http://file.yaoti.org/yaoti.js"></script>
+
+4. 
+
+

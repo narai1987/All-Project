@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+    /* Example Styles for Demo */
+    .etabs { margin: 0; padding: 0; }
+    .tab { display: inline-block; zoom:1; *display:inline; background: #eee; border: solid 1px #cccccc; border-bottom: none; -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;}
+    .tab a { font-size: 10pt; line-height: 2em; display: block; padding: 0 10px; outline: none; text-decoration: none; color:#222222; }
+    .tab a:hover { text-decoration: none; color:#222222;}
+    .tab.active { background: #fff; padding-top: 6px; position: relative; top: 1px; border-color: #cccccc; margin-left:0px;}
+    .tab a.active { font-weight: bold; background:none; margin-left:0px; color:#b99552; text-decoration:none;}
+    .tab-container .panel-container { background: #fff; border: solid #cccccc 1px; padding: 10px; -moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 4px 4px; }
+    /*.panel-container { margin-bottom: 10px;}*/
+	.pans {width:100%; margin:0 auto;}
+	.panel-container div.active{background:none !important; margin-left:0px !important;}

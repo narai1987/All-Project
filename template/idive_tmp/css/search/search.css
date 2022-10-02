@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+span.customSelect {
+	font-size:11px;
+	background-color: #212121;
+	border:none;
+	border-top:solid 1px #131313;
+	border-bottom:solid 1px #535353;
+	width:139px;
+	height:25px;
+	line-height:25px;
+	font-family:ptsans;
+	font-size:13px;
+	color:#d2d2d2;
+	padding-left:10px;
+}
+span.customSelect.changed {
+	background-color: #f0dea4;
+}
+.customSelectInner {
+	background: url(customSelect-arrow.gif) no-repeat center right;
+}
+.styled option{background:#212121 !important; color:#d2d2d2;}

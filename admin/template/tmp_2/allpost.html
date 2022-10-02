@@ -1,0 +1,817 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Pic Your Food</title>
+<link rel="stylesheet" href="styles/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="styles/menu.css" type="text/css" media="screen" />
+
+<!-- ----------left Menu script--------    --->
+<link rel="stylesheet" href="jquery/collasp/collaps.css" type="text/css" media="all">
+<script type="text/javascript" src="jquery/collasp/jquery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	$(".accordion2 h3").eq(0).addClass("active");
+	$(".accordion2 div").eq(0).show();
+
+	$(".accordion2 h3").click(function(){
+		$(this).next("div").slideToggle("slow")
+		.siblings("div:visible").slideUp("slow");
+		$(this).toggleClass("active");
+		$(this).siblings("h3").removeClass("active");
+	});
+
+});
+</script>
+<!--            ----------left Menu script Close--------    --->
+
+<!-- -------------Chart style------------ -->
+  <link href="jquery/chart/css/style.css" rel="stylesheet">
+  <script src="jquery/chart/js/jquery-1.7.2.min.js"></script>
+  <script src="jquery/chart/js/flot/jquery.flot.js"></script>
+  <script src="jquery/chart/js/qtip/jquery.qtip.min.js"></script>
+  <script src="jquery/chart/js/charts.js"></script>
+<!-- -------------Chart style Close------------ -->
+
+<!--popup--->
+ <link rel="stylesheet" href="jquery/popup/popup.css" type="text/css" />
+	<script src="jquery/popup/jquery-latest.js" type="text/javascript"></script>
+	<script type="text/javascript" src="jquery/popup/popup.js"></script>
+<!--popup Close--->
+
+<!--popup tab--->
+<link rel="stylesheet" href="jquery/loginTab/css/style.css" />
+    <!--<script src="jquery/loginTab/js/jquery.min.js"></script>-->
+    <script src="jquery/loginTab/js/organictabs.jquery.js"></script>
+    <script>
+        $(function() {
+    
+            $("#example-one").organicTabs();            
+            $("#example-two").organicTabs({
+                "speed": 200
+            });
+    
+        });
+    </script>
+        
+<!--popup tab Close--->
+
+<!------------------------stylish Drop selection-------------------------------------->
+<link rel="stylesheet" type="text/css" href="jquery/drop_style/css/stylish-select.css" />
+<!--<script type="text/javascript" src="jquery/drop_style/js/select/jquery.min.js"></script>-->
+<script src="jquery/drop_style/js/select/jquery.stylish-select.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function()
+{
+    $('.my-dropdown').sSelect();
+});
+</script>
+
+<!------------------------end stylish Drop selection-------------------------------------->
+
+<!--------Placeholder---------->
+<script type="text/javascript" src="jquery/placeholder/Placeholders.min.js"></script>
+<!--------Placeholder Close---------->
+
+
+</head>
+
+<body>
+<!--Header-->
+<div id="header_p">
+<div id="header">
+<div class="logo left"><a href="index.html"><img src="images/logo.png" alt="Pic Your Food" /></a></div>
+
+
+<div class="welcome_user right">
+<div class="left wel_text"><a href="#" class="left">Welcome John Doe !</a></div>
+
+<ul>
+<li><a href="#"><img src="images/setting.png" alt="" /></a>
+<ul>
+<li><a href="#">Edit Account</a></li>
+<li class="top_m_radius"><a href="#">Change Password</a></li>
+</ul>
+
+
+</li>
+<li><a href="#"><img src="images/logout.png" alt="" /></a></li>
+</ul>
+ </div>
+</div>
+</div>
+<!--Header Close-->
+<!--Menu-->
+<div id="menu_p">
+<div id="menu">
+<div class="menu" >
+<div class="btn_part left">
+<ul>
+<li class="active22" style="padding-top:7px;"><a href="#" >
+<!--<img src="images/home.png" alt="home" />--><div class="home"></div></a></li>
+<!--<li><a href="#">About Us</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Providers</a></li>
+<li><a href="#">Contact Us</a></li>-->
+</ul>
+</div>
+
+
+<div class="_search left">
+<div class="s_box left"><input type="text" placeholder="Search your Terms" class="search_text" /></div>
+<div class="left"><a href="#"><img src="images/search_btn.png" alt="search" class="search_but" /></a></div>
+</div>
+
+<div class="message_strip right">
+<div class="msg_iconBox msg_borderleft msg_Message left"><a class="msg_alert">10</a></div>
+<div class="msg_iconBox msg_FriendRequest left"><a class="msg_alert">54</a></div>
+<div class="msg_iconBox msg_borderright msg_Visitors right"><a class="msg_alert">100</a></div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+<!--Menu Close-->
+
+<!--Detail Strip-->
+<!--<div id="detail_strip_p">
+<div id="detail_strip">
+<div class="detail_strip">
+
+<p>User Details</p>
+
+</div>
+</div>
+</div>-->
+<!--Detail Strip-->
+
+<!--Container-->
+<div id="container">
+<div class="content">
+
+<div class="rightside left">
+        <div class="accordion2">
+        <h3><span class="quick_link_">Quick Links</span></h3>
+	<div>
+    <ul class="l_menulist">
+     <li><a href="#">Users</a> </li>
+    <li><a href="#">All Post</a></li>
+    <li><a href="#">Notification</a></li>
+    <li><a href="#">Reports</a></li>
+    <li><a href="#">Merchants</a></li>
+    <li><a href="#">Statistics</a></li>
+    </ul>
+    </div>
+        
+	<h3><span class="user_">User Detail</span></h3>
+	<div>
+    <ul class="l_menulist">
+     <li><a href="#" class="left" >Total Users</a> <a class="right tot_alert">23</a></li>
+    <li><a href="#" class="left">New Users</a> <a class="right tot_alert">23</a></li>
+    <li><a href="#" class="left">Active Users</a> <a class="right tot_alert">23</a></li>
+    <li><a href="#" class="left">Deactive Users</a> <a class="right tot_alert">23</a></li>
+    </ul>
+    </div>
+    
+	<h3><span class="mail_">Mail / Message</span></h3>
+	<div>
+    <ul class="l_menulist">
+    <li><a href="#" class="left">Total Messages</a> <a class="right tot_alert">23</a></li>
+    <li><a href="#" class="left">New Messages</a> <a class="right tot_alert">23</a></li>
+    <li><a href="#" class="left">Pending Messages</a> <a class="right tot_alert">23</a></li>
+    </ul>
+    </div>
+	<h3><span class="notification_">Notifications</span></h3>
+	<div>
+    <ul class="l_menulist">
+    <li><a href="#" class="left">Total Visits</a> <a class="right tot_alert">23</a></li>
+    <li><a href="#" class="left">New Visits</a> <a class="right tot_alert">23</a></li>
+    <li><a href="#" class="left">New Posts</a> <a class="right tot_alert">23</a></li>
+    <li><a href="#" class="left">Report Abuse</a> <a class="right tot_alert">23</a></li>
+    </ul>
+    </div>
+	<h3><span class="acco_set_">Account Settings</span></h3>
+	<div>
+    <ul class="l_menulist">
+    <li><a href="#" class="left">Edit Account</a> <a class="right tot_alert">23</a></li>
+    <li><a href="#" class="left">Change Password</a> <a class="right tot_alert">23</a></li>
+    </ul>
+    </div>
+	
+    
+</div>
+        
+        
+        </div>
+        
+<div class="left_content right">
+ <div class="user_panel">
+
+  
+<div class="detail_container ">
+    <div class="head_cont">
+    <h2 class="post_grd">
+    <table width="99%"><tr><td width="85%">All Post</td> 
+    <td><!--<a href="#" class="button"><img src="images/add_new.png" alt="add new" /></a>--></td>
+    </tr>
+    </table>
+    </h2>
+    </div>    
+    <!--<fieldset class="field_profile">
+                    <legend>Search</legend>
+                    <table width="98%" cellpadding="0" cellspacing="2" class="tab_regis">
+                          <tr>
+                        <td align="right" width="14%"><strong> Product Name:</strong></td>
+                        <td width="18%">
+                        <select class="drp">
+                    <option>Select</option>
+                    <option>Bicasule</option>
+                    <option>Combiflame</option>
+                    </select>
+                    </td>
+                        <td align="right" width="10%"><strong>Batch No.:</strong></td>
+                        <td width="18%">
+                        <select class="drp">
+                    <option>Select</option>
+                    <option>Bicasule</option>
+                    <option>Combiflame</option>
+                    </select>
+                    </td>
+                        <td>
+                        <button class="button_all"><strong>Show</strong></button> 
+                    <button class="button_all"><strong>Reset</strong></button>
+                       
+                        </td>
+                      </tr>
+                        </table>
+                  </fieldset>-->
+    
+    <div class="grid_container">
+   <!-- <h4>
+     <table width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+    <td width="6%"  align="center"><img src="images/view_product.png" alt="products" /></td>
+    <td class="bord_right" width="89%">View Product Series &amp; Code</td>
+    <td><a href="#"><img src="images/print.png" alt="print" /></a></td>
+    </tr>
+    </table>
+    </h4>-->
+    
+    <div class="printed_pro">
+    <table width="100%" cellspacing="0" cellpadding="0">
+    <tr>
+    <td width="10%" align="right" valign="middle">Search :</td>
+    <td width="30%" class="grd_pad">
+    <input type="text" class="rec_searchInput left" Placeholder="Type to filter..." />
+    <input type="submit" value="" class="record_search left" />
+    </td>
+    
+    
+    <td width="46%" align="right">Show Entries :</td>
+    <td class="grd_pad">
+    <select class="my-dropdown" name="my-dropdown">
+   <!-- <select class="rec_searchInput">-->
+    <option value="1">Record1</option>
+    <option value="2" selected="selected">Record2</option>
+    <option value="3">Record3</option>
+    <option value="4">Record4</option>
+    </select></td>
+    </tr>
+    </table>
+    </div>
+    
+    <table width="100%" cellpadding="0" cellspacing="0" class="grid">
+    <tr>
+  	<td class="tr_haed" width="2%" align="justify"><strong>#</strong></td>
+    <td class="tr_haed bord_left" width="28%"><strong>Title</strong></td>
+    <td class="tr_haed bord_left" width="19%"><strong>Post</strong></td>
+    <td class="tr_haed bord_left" width="19%"><strong>User-ID</strong></td>
+    <td class="tr_haed bord_left" width="11%"><strong>Posting Date</strong></td>
+    <td class="tr_haed bord_left" width="10%"><strong>Via</strong></td>
+    <td class="tr_haed bord_left" align="center"><strong>Action</strong></td>
+    </tr>
+    
+     <tr>
+    <td class="tr_line1" align="justify">1</td>
+    <td class="tr_line1">Lorem Ipsum Doler</td>
+    <td class="tr_line1"><a href="#" class="postPic_grid">Lorem ipsum doler sit amet. Lorem ipsum doler sit amet. Lorem ipsum doler sit amet.</a></td>
+    <td class="tr_line1">Srivastava@gmail.com</td>
+    <td class="tr_line1">07/01/2013</td>
+    <td class="tr_line1">Android</td>
+    <td class="tr_line1 " align="center">
+      <!--<a href="#"><img src="images/edit.png" alt="edit" /></a>
+      <a href="#"><img src="images/check_act.png" alt="check_act" /></a> 
+      <a href="#"><img src="images/delete.png" alt="Delete" /></a>
+      <a class="setting" ><img src="images/setting_grd.png" alt="setting_grd" />
+     <div class="control_set">
+    
+     </div>
+      </a>-->
+      <div  class="setting">
+        <ul>
+          <li><a href="#"><img src="images/edit.png" alt="edit" /></a></li>
+          <li><a href="#"><img src="images/check_act.png" alt="check_act" /></a></li>
+          <li><a href="#"><img src="images/delete.png" alt="Delete" /></a></li>
+          <li><a href="#"><img src="images/zoom.png" alt="setting_grd" /></a>
+            <ul >
+              <li class="setting_top_radius button"><a href="#">All Post</a></li>
+              <li><a href="#">All Likes</a></li>
+              <li><a href="#">All Comments</a></li>
+              <li class="setting_bot_radius"><a href="#">All Abuse</a></li>
+              </ul>           
+            </li>      
+          </ul> 
+        </div>
+      
+      
+      
+    </td>
+    </tr>
+    
+    
+    <tr>
+    <td class="tr_line2 " align="justify">2</td>
+    <td class="tr_line2">Lorem Ipsum Doler</td>
+    <td class="tr_line2">
+    <a href="#" class="postPic_grid"><img src="images/postpic.png" alt="post" width="70" height="70" /></a></td>
+    <td class="tr_line2">Singh@yahoo.com</td>
+    <td class="tr_line2">07/01/2013</td>
+    <td class="tr_line2">Iphone</td>
+    <td class="tr_line2" align="center"> 
+      <div class="setting">
+        <ul>
+          <li><a href="#"><img src="images/edit.png" alt="edit" /></a></li>
+          <li><a href="#"><img src="images/check_act.png" alt="check_act" /></a></li>
+          <li><a href="#"><img src="images/delete.png" alt="Delete" /></a></li>
+          <li><a href="#"><img src="images/zoom.png" alt="setting_grd" /></a>
+            <ul >
+              <li class="setting_top_radius "><a href="#">All Post</a></li>
+              <li><a href="#">All Likes</a></li>
+              <li><a href="#">All Comments</a></li>
+              <li class="setting_bot_radius"><a href="#">All Abuse</a></li>
+              </ul>           
+            </li>      
+          </ul> 
+      </div></td>
+    </tr>
+     <tr>
+    <td class="tr_line1" align="justify">3</td>
+    <td class="tr_line1">Lorem Ipsum Doler</td>
+    <td class="tr_line1"><a href="#" class="postPic_grid">Lorem ipsum doler sit amet. Lorem ipsum doler sit amet. Lorem ipsum doler sit amet.</a></td>
+    <td class="tr_line1">Sharma@yahoo.com</td>
+    <td class="tr_line1">07/01/2013</td>
+    <td class="tr_line1">Website</td>
+    <td class="tr_line1" align="center">
+      <div  class="setting">
+        <ul>
+          <li><a href="#"><img src="images/edit.png" alt="edit" /></a></li>
+          <li><a href="#"><img src="images/check_act.png" alt="check_act" /></a></li>
+          <li><a href="#"><img src="images/delete.png" alt="Delete" /></a></li>
+          <li><a href="#"><img src="images/zoom.png" alt="setting_grd" /></a>
+            <ul >
+              <li class="setting_top_radius"><a href="#">All Post</a></li>
+              <li><a href="#">All Likes</a></li>
+              <li><a href="#">All Comments</a></li>
+              <li class="setting_bot_radius"><a href="#">All Abuse</a></li>
+              </ul>           
+            </li>      
+          </ul> 
+        </div>
+    </td>
+    </tr>
+    
+    <tr>
+    <td class="tr_line2" align="justify">4</td>
+    <td class="tr_line2">Lorem Ipsum Doler</td>
+    <td class="tr_line2"> 
+    <a href="#" class="postPic_grid"><img src="images/postpic.png" alt="post" width="70" height="70" /></a></td>
+    <td class="tr_line2">Chaturvedi@rediff.com</td>
+    <td class="tr_line2">07/01/2013</td>
+    <td class="tr_line2">Android</td>
+    <td class="tr_line2" align="center">
+      <div  class="setting">
+        <ul>
+          <li><a href="#"><img src="images/edit.png" alt="edit" /></a></li>
+          <li><a href="#"><img src="images/check_act.png" alt="check_act" /></a></li>
+          <li><a href="#"><img src="images/delete.png" alt="Delete" /></a></li>
+          <li><a href="#"><img src="images/zoom.png" alt="setting_grd" /></a>
+            <ul >
+              <li class="setting_top_radius"><a href="#">All Post</a></li>
+              <li><a href="#">All Likes</a></li>
+              <li><a href="#">All Comments</a></li>
+              <li class="setting_bot_radius"><a href="#">All Abuse</a></li>
+              </ul>           
+            </li>      
+          </ul> 
+        </div>
+    </td>
+    </tr>
+    
+     <tr>
+    <td class="tr_line1" align="justify">5</td>
+    <td class="tr_line1">Lorem Ipsum Doler</td>
+    <td class="tr_line1"><a href="#" class="postPic_grid">Lorem ipsum doler sit amet. Lorem ipsum doler sit amet. Lorem ipsum doler sit amet.</a></td>
+    <td class="tr_line1">Ehtisham@gmail.com</td>
+    <td class="tr_line1">07/01/2013</td>
+    <td class="tr_line1">Website</td>
+    <td class="tr_line1" align="center">
+      <div  class="setting">
+        <ul>
+          <li><a href="#"><img src="images/edit.png" alt="edit" /></a></li>
+          <li><a href="#"><img src="images/check_act.png" alt="check_act" /></a></li>
+          <li><a href="#"><img src="images/delete.png" alt="Delete" /></a></li>
+          <li><a href="#"><img src="images/zoom.png" alt="setting_grd" /></a>
+            <ul >
+              <li class="setting_top_radius"><a href="#">All Post</a></li>
+              <li><a href="#">All Likes</a></li>
+              <li><a href="#">All Comments</a></li>
+              <li class="setting_bot_radius"><a href="#">All Abuse</a></li>
+              </ul>           
+            </li>      
+          </ul> 
+        </div>
+    </td>
+    </tr>
+    
+    <tr>
+    <td class="tr_line2" align="justify">6</td>
+    <td class="tr_line2">Lorem Ipsum Doler</td>
+    <td class="tr_line2"> 
+    <a href="#" class="postPic_grid"><img src="images/postpic.png" alt="post" width="70" height="70" /></a></td>
+    <td class="tr_line2">Yadav@gmail.com</td>
+    <td class="tr_line2">07/01/2013</td>
+    <td class="tr_line2">Android</td>
+    <td class="tr_line2" align="center"> 
+      <div  class="setting">
+        <ul>
+          <li><a href="#"><img src="images/edit.png" alt="edit" /></a></li>
+          <li><a href="#"><img src="images/check_act.png" alt="check_act" /></a></li>
+          <li><a href="#"><img src="images/delete.png" alt="Delete" /></a></li>
+          <li><a href="#"><img src="images/zoom.png" alt="setting_grd" /></a>
+            <ul >
+              <li class="setting_top_radius"><a href="#">All Post</a></li>
+              <li><a href="#">All Likes</a></li>
+              <li><a href="#">All Comments</a></li>
+              <li class="setting_bot_radius"><a href="#">All Abuse</a></li>
+              </ul>           
+            </li>      
+          </ul> 
+        </div>
+    </td>
+    </tr>
+    
+     <tr>
+    <td class="tr_line1" align="justify">7</td>
+    <td class="tr_line1">Lorem Ipsum Doler</td>
+    <td class="tr_line1"><a href="#" class="postPic_grid">Lorem ipsum doler sit amet. Lorem ipsum doler sit amet. Lorem ipsum doler sit amet.</a></td>
+    <td class="tr_line1">Rai@gmail.com</td>
+    <td class="tr_line1">07/01/2013</td>
+    <td class="tr_line1">Android</td>
+    <td class="tr_line1" align="center">
+      
+      <div  class="setting">
+        <ul>
+          <li><a href="#"><img src="images/edit.png" alt="edit" /></a></li>
+          <li><a href="#"><img src="images/check_act.png" alt="check_act" /></a></li>
+          <li><a href="#"><img src="images/delete.png" alt="Delete" /></a></li>
+          <li><a href="#"><img src="images/zoom.png" alt="setting_grd" /></a>
+            <ul >
+              <li class="setting_top_radius"><a href="#">All Post</a></li>
+              <li><a href="#">All Likes</a></li>
+              <li><a href="#">All Comments</a></li>
+              <li class="setting_bot_radius"><a href="#">All Abuse</a></li>
+              </ul>           
+            </li>      
+          </ul> 
+        </div>
+    </td>
+    </tr>
+    
+    <tr>
+    <td class="tr_line2" align="justify">8</td>
+    <td class="tr_line2">Lorem Ipsum Doler</td>
+    <td class="tr_line2"> 
+    <a href="#" class="postPic_grid"><img src="images/postpic.png" alt="post" width="70" height="70" /></a></td>
+    <td class="tr_line2">Srivastava@gmail.com</td>
+    <td class="tr_line2">07/01/2013</td>
+    <td class="tr_line2">Android</td>
+    <td class="tr_line2" align="center"> 
+      <div  class="setting">
+        <ul>
+          <li><a href="#"><img src="images/edit.png" alt="edit" /></a></li>
+          <li><a href="#"><img src="images/check_act.png" alt="check_act" /></a></li>
+          <li><a href="#"><img src="images/delete.png" alt="Delete" /></a></li>
+          <li><a href="#"><img src="images/zoom.png" alt="setting_grd" /></a>
+            <ul >
+              <li class="setting_top_radius"><a href="#">All Post</a></li>
+              <li><a href="#">All Likes</a></li>
+              <li><a href="#">All Comments</a></li>
+              <li class="setting_bot_radius"><a href="#">All Abuse</a></li>
+              </ul>           
+            </li>      
+          </ul> 
+        </div>
+    </td>
+    </tr>
+    
+     <tr>
+    <td class="tr_line1" align="justify">9</td>
+    <td class="tr_line1">Lorem Ipsum Doler</td>
+    <td class="tr_line1"><a href="#" class="postPic_grid">Lorem ipsum doler sit amet. Lorem ipsum doler sit amet. Lorem ipsum doler sit amet.</a></td>
+    <td class="tr_line1">Srivastava@gmail.com</td>
+    <td class="tr_line1">07/01/2013</td>
+    <td class="tr_line1">Android</td>
+    <td class="tr_line1" align="center">
+      <div  class="setting">
+        <ul>
+          <li><a href="#"><img src="images/edit.png" alt="edit" /></a></li>
+          <li><a href="#"><img src="images/check_act.png" alt="check_act" /></a></li>
+          <li><a href="#"><img src="images/delete.png" alt="Delete" /></a></li>
+          <li><a href="#"><img src="images/zoom.png" alt="setting_grd" /></a>
+            <ul >
+              <li class="setting_top_radius"><a href="#">All Post</a></li>
+              <li><a href="#">All Likes</a></li>
+              <li><a href="#">All Comments</a></li>
+              <li class="setting_bot_radius"><a href="#">All Abuse</a></li>
+              </ul>           
+            </li>      
+          </ul> 
+        </div>
+    </td>
+    </tr>
+    
+    
+    </table>
+    
+    </div>
+    
+    <!--<div class="pagination">
+      <a href="#">&lt;&lt;</a>
+      <a href="#" class="current">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a href="#">&gt;&gt;</a>
+      </div>-->
+    
+    </div>
+  <div class="pageIndex">
+      <a href="#" class="active">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a href="#">&gt;&gt;</a>
+  </div>
+</div>
+
+
+
+</div>  
+        
+   <!--PopUp Starts-->
+			<div class="popupContent">
+							<a class="popupClose"><!--<img src="jquery/popup/close.png" alt="close" />--></a>
+					<div class="service_head_p">User Name</div>		
+							 <div id="example-one">
+        		
+        	<ul class="nav">
+                <li class="nav-one"><a href="#featured" class="current">Post</a></li>
+                <li class="nav-two"><a href="#core">Likes</a></li>
+                <li class="nav-three"><a href="#jquerytuts">Unlikes</a></li>
+                <li class="nav-four"><a href="#classics">Comments</a></li>
+                <li class="nav-five"><a href="#tags">Tags</a></li>
+                <li class="nav-six last"><a href="#abuse">Abuse</a></li>
+            </ul>
+        	
+        	<div class="list-wrap">
+        	<ul id="featured">
+        			<li>
+                 <form id="commentForm" method="get" action="">
+           <!-- <fieldset class="fieldset">
+                 <legend>Personal Detail</legend>-->
+                 <table width="98%" cellpadding="0" cellspacing="0" class="tab_regis">
+                 <tr>
+                 <td align="left"><strong>Title: Don 2 (THE KING IS BACK)</strong></td>                                                                                             
+                 <td align="right">
+                <span>07-Jan-2013, 02:46 PM</span>
+                 </td>
+               
+                
+                 </tr>
+                 
+                 <tr>
+                 <td colspan="2" align="center">
+                	<a href="#" style="border:none;"><img src="images/postpic.png" alt="post" class="post_border" /></a>
+                 </td>                
+                 </tr>
+                 </table>
+                 <!--</fieldset>-->
+                
+               
+                 </form>
+                 </li>
+                 </ul>
+                 
+        		 
+        		 <ul id="core" class="hide">
+                    <li>
+                     <div class="tag">
+                    <h4 class="like_bg">40 People likes it.</h4>
+                    <ul class="like">
+                    <li><a href="#" class="left">Vinod Kumar Sharma Likes your post </a>                               
+                    <span class="right">07-Jan-2013, 3:46PM</span></li>                  
+                    <li><a href="#" class="left">Vinod Kumar Sharma Likes your post </a>                               
+                    <span class="right">07-Jan-2013, 3:46PM</span></li>
+                    <li><a href="#" class="left">Vinod Kumar Sharma Likes your post </a>                               
+                    <span class="right">07-Jan-2013, 3:46PM</span></li>
+                    <li><a href="#" class="left">Vinod Kumar Sharma Likes your post </a>                               
+                    <span class="right">07-Jan-2013, 3:46PM</span></li>
+                    <li><a href="#" class="left">Vinod Kumar Sharma Likes your post </a>                               
+                    <span class="right">07-Jan-2013, 3:46PM</span></li>
+                    </ul>
+                    </div>                
+                    
+                    </li>
+                   
+        		 </ul>
+        		 
+        		 <ul id="jquerytuts" class="hide">
+        		    <li>
+                    <div class="tag">
+                    <h4 class="unlike_bg">40 People unlikes it.</h4>
+                    <ul class="unlike">
+                    <li><a href="#" class="left">Vinod Kumar Sharma Likes your post </a>                               
+                    <span class="right">07-Jan-2013, 3:46PM</span></li>                  
+                    <li><a href="#" class="left">Vinod Kumar Sharma Likes your post </a>                               
+                    <span class="right">07-Jan-2013, 3:46PM</span></li>
+                    <li><a href="#" class="left">Vinod Kumar Sharma Likes your post </a>                               
+                    <span class="right">07-Jan-2013, 3:46PM</span></li>
+                    <li><a href="#" class="left">Vinod Kumar Sharma Likes your post </a>                               
+                    <span class="right">07-Jan-2013, 3:46PM</span></li>
+                    <li><a href="#" class="left">Vinod Kumar Sharma Likes your post </a>                               
+                    <span class="right">07-Jan-2013, 3:46PM</span></li>
+                    </ul>
+                    </div>    
+                    
+                    </li>
+        		 </ul>
+        		 
+        		 <ul id="classics" class="hide">
+                    <li>
+                    
+                    <table width="100%" cellspacing="0" class="tab_regis"s>
+                    <tr>
+                    <td width="32%" align="center" valign="top" ><a href="#" style="border:none;"><img src="images/postpic.png" alt="post" width="170" height="170" class="post_border" />
+                    
+                    
+                    <strong>Don 2 (THE KING IS BACK)</strong>
+</a><br /><span>07-Jan-2013, 02:46 PM</span></td>
+                    <td valign="top" >
+                    <div class="comment_scroll">
+                    <table width="98%" cellpadding="0" cellspacing="0" class="tab_regis">
+                 <tr>
+                 <td align="left"><strong>By: Rishikesh Chaturvedi</strong></td>                                                                                             
+                 <td align="right">
+                <span>07-Jan-2013, 02:46 PM</span>
+                 </td>
+                 </tr>
+                 <tr>
+                 <td colspan="2">
+                 <p>
+                 Lorem Ipsum Doler Sit Amet. Lorem Ipsum Doler Sit Amet. Lorem Ipsum Doler Sit Amet. Lorem Ipsum Doler Sit Amet Lorem Ipsum Doler Sit Amet.Lorem Ipsum Doler Sit Amet.
+                 </p>
+                 
+                 </td>
+                 </tr>
+                 
+                 
+                  <tr>
+                 <td align="left"><strong>Title: Don 2 (THE KING IS BACK)</strong></td>                                                                                             
+                 <td align="right">
+                <span>07-Jan-2013, 02:46 PM</span>
+                 </td>
+                 </tr>
+                 <tr>
+                 <td colspan="2">
+                 <p>
+                 Lorem Ipsum Doler Sit Amet. Lorem Ipsum Doler Sit Amet. Lorem Ipsum Doler Sit Amet. Lorem Ipsum Doler Sit Amet Lorem Ipsum Doler Sit Amet.Lorem Ipsum Doler Sit Amet.
+                 </p>
+                 
+                 </td>
+                 </tr>
+                 
+                  <tr>
+                 <td align="left"><strong>Title: Don 2 (THE KING IS BACK)</strong></td>                                                                                             
+                 <td align="right">
+                <span>07-Jan-2013, 02:46 PM</span>
+                 </td>
+                 </tr>
+                 <tr>
+                 <td colspan="2">
+                 <p>
+                 Lorem Ipsum Doler Sit Amet. Lorem Ipsum Doler Sit Amet. Lorem Ipsum Doler Sit Amet. Lorem Ipsum Doler Sit Amet Lorem Ipsum Doler Sit Amet.Lorem Ipsum Doler Sit Amet.
+                 </p>
+                 
+                 </td>
+                 </tr>
+                 
+                  <tr>
+                 <td align="left"><strong>Title: Don 2 (THE KING IS BACK)</strong></td>                                                                                             
+                 <td align="right">
+                <span>07-Jan-2013, 02:46 PM</span>
+                 </td>
+                 </tr>
+                 <tr>
+                 <td colspan="2">
+                 <p>
+                 Lorem Ipsum Doler Sit Amet. Lorem Ipsum Doler Sit Amet. Lorem Ipsum Doler Sit Amet. Lorem Ipsum Doler Sit Amet Lorem Ipsum Doler Sit Amet.Lorem Ipsum Doler Sit Amet.
+                 </p>
+                 
+                 </td>
+                 </tr>
+                 
+                 </table>
+                    </div>
+                    </td>
+                    </tr>                    
+                    </table>                    
+                    
+                    </li>
+                    
+        		 </ul>
+                 
+                 
+                 <ul id="tags" class="hide">
+        			<li>
+        		<!--<table width="100%" cellspacing="0" class="tab_regis"s>
+                    <tr><td>hjkjh gjghj hjhgjgh</td></tr></table>-->
+                    
+                    <div class="tag">
+                    <h4 class="tag_bg">40 People Tag</h4>
+                    <p><a href="#">Vinod</a>, <a href="#">Vibhor</a>, <a href="#">Rishikesh</a>, <a href="#">Kaif</a>, <a href="#">Ashish 1</a>, <a href="#">Ashish 2</a>, <a href="#">Ashish 3</a>, <a href="#">Anuj</a>, <a href="#">Nushrat</a>, <a href="#">Tarun</a>, <a href="#">Shiva</a>, <a href="#">Abhishek</a>, <a href="#">Sunil</a>, <a href="#">Vinod</a>, <a href="#">Vibhor</a>, <a href="#">Rishikesh</a>, <a href="#">Kaif</a>, <a href="#">Ashish 1</a>, <a href="#">Ashish 2</a>, <a href="#">Ashish 3</a>, <a href="#">Anuj</a>, <a href="#">Nushrat</a>, <a href="#">Tarun</a>, <a href="#">Shiva</a>, <a href="#">Abhishek</a>, <a href="#">Sunil</a>, <a href="#">Vinod</a>, <a href="#">Vibhor</a>, <a href="#">Rishikesh</a>, <a href="#">Kaif</a>, <a href="#">Ashish 1</a>, <a href="#">Ashish 2</a>, <a href="#">Ashish 3</a>, <a href="#">Anuj</a>, <a href="#">Nushrat</a>, <a href="#">Tarun</a>, <a href="#">Shiva</a>, <a href="#">Abhishek</a>, <a href="#">Sunil</a>, <a href="#">Vinod</a>, <a href="#">Vibhor</a>, <a href="#">Rishikesh</a>, <a href="#">Kaif</a>, <a href="#">Ashish 1</a>, <a href="#">Ashish 2</a>, <a href="#">Ashish 3</a>, <a href="#">Anuj</a>, <a href="#">Nushrat</a>, <a href="#">Tarun</a>, <a href="#">Shiva</a>, <a href="#">Abhishek</a>, <a href="#">Sunil</a></p>
+                    </div>
+                    
+                    
+                    </li>
+        		</ul>
+                
+                
+                <ul id="abuse" class="hide">
+        			<li>
+        		<div class="tag">
+                    <h4 class="abuse_bg">40 People abused it.</h4>
+                    <ul class="abuse">
+                    <li><a href="#" class="left">Vinod Kumar Sharma Likes your post </a>                               
+                    <span class="right">07-Jan-2013, 3:46PM</span></li>                  
+                    <li><a href="#" class="left">Vinod Kumar Sharma Likes your post </a>                               
+                    <span class="right">07-Jan-2013, 3:46PM</span></li>
+                    <li><a href="#" class="left">Vinod Kumar Sharma Likes your post </a>                               
+                    <span class="right">07-Jan-2013, 3:46PM</span></li>
+                    <li><a href="#" class="left">Vinod Kumar Sharma Likes your post </a>                               
+                    <span class="right">07-Jan-2013, 3:46PM</span></li>
+                    <li><a href="#" class="left">Vinod Kumar Sharma Likes your post </a>                               
+                    <span class="right">07-Jan-2013, 3:46PM</span></li>
+                    </ul>
+                    </div>    </li>
+        		</ul>
+                 
+                 
+                 
+        		 
+        	 </div> <!-- END List Wrap -->
+         
+         </div> <!-- END Organic Tabs (Example One) -->
+						</div>
+						<div class="backgroundPopup"></div>			
+<!--PopUp Close-->
+      
+
+</div>
+</div>
+<!--Container Close-->
+
+<!--footer starts-->
+<div id="footer_p">
+<div id="footer">
+<div class="f_menu left_drag">
+<p>
+© Pic Your Food 2013, All Rights Reserved.
+</p>
+</div>
+
+</div>
+
+
+</div>
+<!--footer close-->
+
+
+
+</body>
+</html>

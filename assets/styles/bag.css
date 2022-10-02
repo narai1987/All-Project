@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+/* Bag popup start*/
+.bagpopup {
+	position:absolute;
+	top:20;
+	right:0px;
+	width:310px;
+	height:auto;
+	/*border:1px solid #0F0 !important;*/
+	display:none;
+	background:#eaeff3;
+}
+
+.bagpopup_show {
+	position:absolute;
+	top:20;
+	right:0px;
+	width:310px;
+	height:auto;
+	/*background:#eaeff3;
+	border:1px solid #a8b1b6;*/
+	display:block;
+	/*-webkit-border-radius: 15px 15px 0 0;
+-moz-border-radius:15px 15px 0 0;
+border-radius:15px 15px 0 0;
+border:1px solid #0F0 !important;*/
+	padding-top:3px;
+	background:url(../../images/pointer_noch.png) no-repeat 90% top;
+	z-index:100;
+}
+.bagpopup_show div.heading_cart{
+	background:#76848e;
+	line-height:30px;
+	width:100%;
+	color:#ffffff;
+	font-size:9pt;
+	-webkit-border-radius: 4px 4px 0 0;
+-moz-border-radius:4px 4px 0 0;
+border-radius:4px 4px 0 0;
+border:1px solid #667078;
+border-top:none;
+ 
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7e8d97), to(#707e88));
+  
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #7e8d97, #707e88);
+  
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #7e8d97, #707e88);
+  
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #7e8d97, #707e88);
+  
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #7e8d97, #707e88);
+  position:relative;
+  z-index:200;
+}
+.bagpopup_show div.heading_cart h3{
+	line-height:22px;
+	padding:5px 5px 5px 10px;
+	color:#ffffff;
+	font-size:9pt;
+	-webkit-border-radius: 4px 4px 0 0;
+-moz-border-radius:4px 4px 0 0;
+border-radius:4px 4px 0 0;
+border-bottom:2px dashed #ffffff;
+
+}
+
+.bagpopup_show div.heading_cart h3 span{
+	font-size:8pt;
+	font-weight:normal;
+	text-decoration:1px 0 0 #667078;
+}
+.bagpopup_show div.bag_container
+{
+	width:100%;
+	background:#eaeff3;
+	border:1px solid #a8b1b6;
+	-webkit-border-radius: 0px 0px 4px 4px;
+-moz-border-radius:0px 0px 4px 4px;
+border-radius:0px 0px 4px 4px;
+}
+.bag_tab
+{
+	width:98%;
+	line-height:30px;
+	margin:0 auto;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#232323;
+	font-size:8pt;
+}
+.bag_tab a
+{
+	text-decoration:none;
+	color:#232323 !important;
+}
+.bag_tab a:hover
+{
+	text-decoration:underline !important;
+}
+.bag_tab img
+{
+	padding:7px 0 7px 0;
+}
+.bag_tab span
+{
+	color:#82593c;
+	font-size:8pt;
+}
+.head_message
+{
+	width:99%;
+	margin-bottom:5px;
+	font-size:8pt;
+	color:#ffffff;
+	padding-left:20px;
+	clear:both;
+}
+/* Bag popup end*/

@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+.st-content .my_account .booktrip table tr td
+{
+	padding:5px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+}
+.st-content .my_account .booktrip table tr th
+{
+	padding:5px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	background:#ccc;
+}
+.st-content .my_account .booktrip fieldset
+{
+	padding:10px;
+	border:solid 1px #ccc;
+	margin-top:10px;
+}
+.st-content .my_account .booktrip  fieldset legend
+{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	padding:5px 10px;
+	border:solid 1px #ccc;
+	border-radius:20px;
+}
+.st-content .my_account .booktrip  fieldset #accordion_data h3
+{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+.st-content .my_account .booktrip  fieldset #accordion_data input
+{
+	width:200px;
+	height:23px;
+	padding-left:5px;
+}
+.st-content .my_account .booktrip div.scedule fieldset #accordion_data select.lang_drp
+{
+	padding:4px;
+}
+.st-content .my_account .booktrip  fieldset label.per_bold
+{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+}
+.st-content .my_account .booktrip  fieldset label.per_bold span
+{
+	font-weight:normal;
+}

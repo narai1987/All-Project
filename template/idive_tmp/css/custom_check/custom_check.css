@@ -1,0 +1,67 @@
+legend {
+	font-size: 1.4em;
+	font-weight: bold;
+	padding: .2em 5px;
+}
+
+	
+/*	wrapper divs */
+.custom-checkbox, .custom-radio { position: relative; float:left; margin-right:10px; }
+	
+/* input, label positioning */
+.custom-checkbox input, 
+.custom-radio input {
+	
+	left: 2px;
+	top: 3px;
+	margin: 0;
+	z-index: 0;
+}
+
+.custom-checkbox label, 
+.custom-radio label {
+	display: block;
+	position: relative;
+	z-index: 1;
+	outline:none;
+	cursor: pointer;
+}
+
+	
+/* states */
+.custom-checkbox label 
+{ 
+	background: url(../../images/login_popup/check_normal.png) no-repeat; 
+	top: -15px;
+	width: 17px;
+	height: 16px;
+	left: -1px 
+}
+
+.custom-radio label { background: url(images/radiobutton.gif) no-repeat; }
+
+.custom-checkbox label, .custom-radio label {
+	background: url(../../images/login_popup/check_normal.png) no-repeat;
+}
+
+.custom-checkbox label.hover,
+.custom-checkbox label.focus,
+.custom-radio label.hover,
+.custom-radio label.focus {
+	background: url(../../images/login_popup/check_normal.png) no-repeat;
+}
+
+.custom-checkbox label.checked, 
+.custom-radio label.checked {
+	background:  url(../../images/login_popup/check_active.png) no-repeat;
+}
+
+.custom-checkbox label.checkedHover, 
+.custom-checkbox label.checkedFocus {
+	background:  url(../../images/login_popup/check_active.png) no-repeat;
+}
+
+.custom-checkbox label.focus, 
+.custom-radio label.focus {
+	
+}

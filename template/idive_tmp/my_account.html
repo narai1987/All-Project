@@ -1,0 +1,772 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>iDive Trips</title>
+<style type="text/css">
+@import url("css/main.css");
+</style>
+<style type="text/css">
+@import url("css/font.css");
+</style>
+<!--common jquery-->
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<!--//common jquery-->
+
+<!--quick cart-->
+<style type="text/css">
+@import url("css/slideout.css");
+</style>
+<!--// quick cart-->
+
+<!--stylish select-->
+<style type="text/css">
+@import url("css/jquery.selectbox.css");
+</style>
+<!--<script type="text/javascript" src="js/select/jquery-1.7.2.min.js"></script>-->
+<script type="text/javascript" src="js/select/jquery.selectbox-0.2.js"></script>
+
+<!--//stylish select-->
+
+<!--navigation-->
+<style type="text/css">
+@import url("css/nav.css");
+</style>
+
+<!--//navigation-->
+
+<!--plan your trip-->
+<style type="text/css">
+@import url("css/slide.css");
+</style>
+<script type="text/javascript" src="js/slide.js"></script>
+<!--//plan your trip-->
+
+<!--custom select search-->
+<style type="text/css">
+@import url("css/search/jquery.jscrollpane.css");
+</style>
+<style type="text/css">
+@import url("css/search/customSelectBox.css");
+</style>
+<script src="js/search/jScrollPane.js"></script>
+<script src="js/search/jquery.mousewheel.js"></script>
+<script src="js/search/SelectBox.js"></script>
+<script>	
+	$(function() {
+			window.prettyPrint && prettyPrint()
+
+			/*
+				This is how initialization normally looks. 
+				Typically it's just $("select.custom"), but to make this example more clear 
+				I'm breaking from the pattern and excluding interactive
+			*/
+			$("select.custom").not(".interactive").each(function() {					
+				var sb = new SelectBox({
+					selectbox: $(this),
+					height: 150,
+					width: 200
+				});
+			});
+			var country_SB = null, 
+				city_SB = null;
+		});
+		</script>
+<!--//custom select search-->
+
+<!--trip tabs-->
+<style type="text/css">@import url("css/tabs/general.css");</style>
+<style type="text/css">@import url("css/tabs/tabs.css");</style>
+<script type="text/javascript" src="js/tabs.js"></script>
+<!--//trip tabs-->
+
+
+
+</head>
+
+<body class="hasJS" data-twttr-rendered="true">
+<div id="wrapper"> 
+  <!--top_bar-->
+  <div id="top_cont">
+    <div class="top_strip"> 
+      <!--cart quick view-->
+      <div class="q_container" id="qc1"> <a href="#" id="t_cart t_wishlist t_compare" class="question"> SHOPPING: &nbsp;Cart Total: <span class="quick_price"> &nbsp;118.35 THB</span> </a>
+        <div class="clr"></div>
+        <div class="answer" id="a1">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td valign="top" colspan="5"><span class="q_cart_heading">RECENTLY ADDED ITEM(S)</span></td>
+            </tr>
+            <tr>
+              <td><a href="#" class="prod_q_cart"><img src="images/cart_img1.png" width="64" height="36" /></a></td>
+              <td class="prod_q_heading">Similan Islands, Thailand </td>
+              <td class="q_qty">1x</td>
+              <td class="prod_q_price">5,000 THB</td>
+              <td><a href="#" class="q_close"><img src="images/q_close.png" width="16" height="15" /></a></td>
+            </tr>
+            <tr>
+              <td colspan="5" class="bot_border">&nbsp;</td>
+            </tr>
+            <tr>
+              <td><a href="#" class="prod_q_cart"><img src="images/cart_img1.png" width="64" height="36" /></a></td>
+              <td class="prod_q_heading">Similan Islands, Thailand</td>
+              <td class="q_qty">1x</td>
+              <td class="prod_q_price">5,000 THB</td>
+              <td><a href="#" class="q_close"><img src="images/q_close.png" width="16" height="15" /></a></td>
+            </tr>
+            <tr>
+              <td colspan="5" class="bot_border">&nbsp;</td>
+            </tr>
+            <tr>
+              <td valign="top" colspan="5"><div class="f_left prod_q_heading">Shipping</div>
+                <div class="f_right prod_q_price">1,000 THB</div>
+                <div class="clr"></div>
+                <div class="f_left prod_q_heading">Total</div>
+                <div class="f_right prod_q_price">11,000 THB</div></td>
+            </tr>
+            <tr>
+              <td colspan="5" class="bot_border">&nbsp;</td>
+            </tr>
+            <tr>
+              <td valign="top" colspan="5" height="23"><div class="f_left"><a href="checkout.html" class="q_checkout_btn">Checkout</a></div>
+                <div class="f_right"><a href="cart.html" class="q_viewcart_btn">View Cart</a></div></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <!--// cart quick view--> 
+      
+      <!--support-->
+      <div class="support">SUPPORT: +444 (100) 1234 </div>
+      <!--// support--> 
+      
+      <!--language currency-->
+      <div class="curr_lang f_right">
+        <div class="lang f_left"><span class="f_right">
+          <select name="country_id" id="country_id" tabindex="1">
+            <option value="1">English</option>
+            <option value="2">Thai</option>
+            <option value="3">French</option>
+          </select>
+          </span> </div>
+        <div class="curr f_right"><span class="f_right">
+          <select name="country_id" id="country_id_currency" tabindex="1">
+            <option value="2">$ USD</option>
+            <option value="3">&#8364; Euro</option>
+            <option value="4">&pound; Pound</option>
+          </select>
+          </span> </div>
+      </div>
+      <!--// language currency--> 
+    </div>
+  </div>
+  <!--// top_bar--> 
+  
+  <!--Header-->
+  <div id="header_cont">
+    <div class="header">
+      <div class="logo f_left"><a href="#"><img src="images/logo.png" width="127" height="77" /></a></div>
+      <div class="f_right r_nav">
+        <ul>
+          <li><a href="wishlist.html">Wishlist (2)</a></li>
+          <li><a href="compare.html">Compare (2)</a></li>
+          <li><a href="my_account.html">My Account</a></li>
+          <li class="last">Welcome visitor you can <a href="#">login</a> or <a href="#">create an account</a>.</li>
+        </ul>
+      </div>
+    </div>
+    <div id="navigation_cont">
+  <div class="navigation">
+   <!--navigation-->
+    <nav id="primary-nav" class="clearfix-mobile">
+      <ul class="clearfix-mobile">
+      <li id="menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-550"><a href="index.html">Home</a></li>
+      <li>
+      <a href="#">Famous Boats</a>
+      
+      <ul class="categories sub-menu">
+        <li class="boat-category ">
+          <a href="#">Bowrider</a>
+          
+          <div class="models">
+              <div class="pat">
+               <!-- <p class="description">Daytime watersports and leisure meets unmatched performance from a full line of refined bowriders.</p>-->
+                
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <div class="title">1900</div>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li class="last">
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li class="last">
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  
+                  </ul>
+                  </div>
+            </div>
+          </li>
+        <li class="boat-category ">
+          <a href="#">Cuddy</a>
+          <div class="models">
+              <div class="pat">
+               <!-- <p class="description">Daytime watersports and leisure meets unmatched performance from a full line of refined bowriders.</p>-->
+                
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <div class="title">19001</div>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li class="last">
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li class="last">
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  
+                  </ul>
+                  </div>
+            </div>
+          </li>
+        <li class="boat-category ">
+          <a href="#">Deck Boat</a>
+          
+          <div class="models">
+              <div class="pat">
+               <!-- <p class="description">Daytime watersports and leisure meets unmatched performance from a full line of refined bowriders.</p>-->
+                
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <div class="title">1900</div>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li class="last">
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                
+                  
+                  </ul>
+                  </div>
+            </div>
+          </li>
+        <li class="boat-category ">
+          <a href="#">Express Cruiser</a>
+          
+          <div class="models">
+              <div class="pat">
+               <!-- <p class="description">Daytime watersports and leisure meets unmatched performance from a full line of refined bowriders.</p>-->
+                
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <div class="title">1900</div>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                   <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  </ul>
+                  </div>
+            </div>
+          </li>
+        <li class="boat-category ">
+          <a href="#">Sport Coupe</a>
+          
+          <div class="models">
+              <div class="pat">
+               <!-- <p class="description">Daytime watersports and leisure meets unmatched performance from a full line of refined bowriders.</p>-->
+                
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li class="last">
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  <li class="last">
+                    <a href="#">
+                      <img class="boat_img" width="160" height="79" src="images/boat1.png" class="attachment-thumbnail-boat-profile wp-post-image" alt="1900" title="1900"/>																			              			  <h5 class="title">1900</h5>
+                      <span class="excerpt">The 1900 instills pure simplicity, versatility and thrill into a bantam boat.</span>
+                      <span class="discover">Discover More</span>
+                      </a>
+                    </li>
+                  
+                  </ul>
+                  </div>
+            </div>
+          </li>
+        <li style="float:right;" class="fleet-search">
+          <a href="#">Fleet Search</a>
+          </li>
+        </ul>
+      </li>
+        
+      <li id="menu-item-1709" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1709"><a class="active" href="trips.html">Our Trips</a> </li>
+      <li id="menu-item-538" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-538"><a href="#">Products</a>
+      <ul class="sub-menu">
+        <li id="menu-item-1643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1643"><a href="#">Events</a></li>
+        <li id="menu-item-540" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-540"><a href="#">Owners</a></li>
+        <li id="menu-item-541" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-541"><a href="#">Share Your Story</a></li>
+        <li id="menu-item-543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-543"><a href="#">Tips &amp; Safety</a></li>
+        <li id="menu-item-15180" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15180"><a href="#">Sportswear</a></li>
+        </ul>
+      </li>
+      <li id="menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-550"><a href="#">Why iDiveTrips</a></li>
+       
+        </ul>
+    </nav>
+    <div class="pick_trip"><img src="images/plan_trip.png" width="201" height="22" /></div>
+    <div id="toppanel">
+	<div id="panel">
+      <div class="pat">
+        <div class="content clearfix">
+        	<table class="search_select" width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td>
+                    <select name="country1" class="custom">
+                      <option>Select a Country</option>
+                      <option value="Argentina">Argentina</option>
+                      <option value="Australia">Australia</option>
+                      <option value="Austria">Austria</option>
+                      <option value="Argentina">Argentina</option>
+                      <option value="Australia">Australia</option>
+                      <option value="Austria">Austria</option>
+                      <option value="Argentina">Argentina</option>
+                      <option value="Australia">Australia</option>
+                      <option value="Austria">Austria</option>
+                    </select>
+          		</td>
+                <td width="33">&nbsp;</td>
+                <td>
+                	<select name="Trips" class="custom">
+                      <option>Select a Trip</option>
+                      <option value="Argentina">Argentina</option>
+                      <option value="Australia">Australia</option>
+                      <option value="Austria">Austria</option>
+                    </select>
+                </td>
+              </tr>
+              <tr>
+                <td><select name="Origin" class="custom">
+                      <option>Select Origin</option>
+                      <option value="Argentina">Argentina</option>
+                      <option value="Australia">Australia</option>
+                      <option value="Austria">Austria</option>
+                    </select></td>
+                <td>&nbsp;</td>
+                <td><select name="Trips" class="custom">
+                      <option>Select Destination</option>
+                      <option value="Argentina">Argentina</option>
+                      <option value="Australia">Australia</option>
+                      <option value="Austria">Austria</option>
+                    </select></td>
+              </tr>
+              <tr>
+                <td><input class="date" id="datepicker" name="" type="text" placeholder="Departure Date" /></td>
+                <td>&nbsp;</td>
+                <td><input class="date" id="datepicker1" name="" type="text" placeholder="Return Date" /></td>
+              </tr>
+              <tr>
+                <td><select name="price min" class="custom">
+                      <option>Price from: Min</option>
+                      <option value="Argentina">Argentina</option>
+                      <option value="Australia">Australia</option>
+                      <option value="Austria">Austria</option>
+                    </select></td>
+                <td>&nbsp;</td>
+                <td><select name="price max" class="custom">
+                      <option>Price from: Max</option>
+                      <option value="Argentina">Argentina</option>
+                      <option value="Australia">Australia</option>
+                      <option value="Austria">Austria</option>
+                    </select></td>
+              </tr>
+              <tr>
+                <td class="last" colspan="3"><a href="#" class="trip_btn"><img src="images/find_trip_btn.png" width="116" height="33" /></a></td>
+              </tr>
+            </table>
+        </div>
+      </div>
+    </div> <!-- /login -->	
+<ul class="login">
+			<li id="toggle">
+				<a id="open" class="open" href="#"></a>
+				<a id="close" style="display: none;" class="close" href="#"></a>			
+			</li>
+			
+		</ul> 
+	<!-- The tab on top -->	
+	
+		
+	<!-- / top -->
+	
+</div>
+    <!--//navigation-->
+  </div>
+</div>
+  </div>
+  <div id="main_box_cont">
+    <div class="main_box">
+       <div class="breadcrumb"><a href="index.html">Home</a> >> <a class="active" href="my_account.html">My account</a></div>
+    </div>
+    <div class="tab_content_trip">
+      <div class="left_panel">
+        <div class="page_heading">My Account</div>
+        <div class="my_account_cont">
+          <div class="account_box">
+            <p class="acc_heading">My Account</p>
+            <ul class="my_acc_ul">
+              <li><a href="edit_account.html">Edit your account information</a></li>
+              <li><a href="change_pass.html">Change your password</a></li>
+              <li><a href="address_book.html">Modify your address book entries</a></li>
+              <li><a href="manage_wishlist.html">Modify your wishlist</a></li>
+              </ul>
+            </div>
+          
+          <div class="account_box">
+            <p class="acc_heading">My Orders</p>
+             <ul class="my_acc_ul">
+              <li><a href="order_history.html">View your order history</a></li>
+              <li><a href="reward.html">Your Rewards Points</a></li>
+              <li><a href="product_return.html">View your return requests</a></li>
+              <li><a href="transaction.html">Your Transactions</a></li>
+              </ul>
+            </div>
+          
+          <div class="account_box">
+            <p class="acc_heading">Newsletter</p>
+             <ul class="my_acc_ul">
+              <li><a href="newsletter_subs.html">Subscribe/Unsubscribe to newsletter</a></li>
+              </ul>
+            </div>
+          </div>
+      </div> 
+      <div class="right_panel">
+      <ul class="account_link">
+        	<li><a class="active" href="my_account.html">My Account</a></li>
+            <li><a href="edit_account.html">Edit Account</a></li>
+            <li><a href="change_pass.html">Password</a></li>
+            <li><a href="address_book.html">Address Books</a></li>
+            <li><a href="manage_wishlist.html">Wishlist</a></li>
+            <li><a href="order_history.html">Order History</a></li>
+            <li><a href="product_return.html">Returns</a></li>
+            <li><a href="reward.html">Rewards</a></li>
+            <li><a href="transaction.html">Transactions</a></li>
+            <li><a href="newsletter_subs.html">Newsletter</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+      </div>
+       <div class="clr"></div>
+    </div>
+  </div>
+  <div class="clr"></div>
+  <div class="link_box_others">
+    <div class="boxes"><a href="http://favme.me/"><img src="images/upcoming_trips.png" width="310" height="131" /></a></div>
+    <div class="boxes"><a href="#"><img src="images/popular_boats.png" width="310" height="131" /></a></div>
+    <div class="boxes last"><a href="#"><img src="images/popular_trips.png" width="310" height="131" /></a></div>
+  </div>
+  <div class="clr"></div>
+  <div id="footer_cont">
+    <div class="footer">
+      <div class="f_navigation f_left">
+        <ul>
+          <li><a href="#">CURRENT iDIVE PROMOTION</a></li>
+          <li><a href="#">FEATURED BOAT</a></li>
+          <li><a href="#">A FAMILY COMPANY</a></li>
+          <li><a href="#">iDIVE COMMUNITY</a></li>
+          <li><a href="#">iDIVE TOUR</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="#">NEWS</a></li>
+          <li><a href="#">MEDIA</a></li>
+        </ul>
+      </div>
+      <div class="f_trips f_left">
+        <h2>Liveabords</h2>
+        <div class="liveabords">
+          <ul>
+            <li><a href="#"><img src="images/f_live1.png" width="90" height="47" /></a></li>
+            <li><a href="#"><img src="images/f_live1.png" width="90" height="47" /></a></li>
+            <li><a href="#"><img src="images/f_live1.png" width="90" height="47" /></a></li>
+          </ul>
+        </div>
+        <br />
+        <h2>Day Trips</h2>
+        <div class="liveabords">
+          <ul>
+            <li><a href="#"><img src="images/f_live1.png" width="90" height="47" /></a></li>
+            <li><a href="#"><img src="images/f_live1.png" width="90" height="47" /></a></li>
+            <li><a href="#"><img src="images/f_live1.png" width="90" height="47" /></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="f_news f_right last">
+        <h2>Monthly E-News Letter</h2>
+        <p>Subscribe to our newsletter and get exclusive deals you won’t find anywhere.</p>
+        <input class="txt_box" name="" placeholder="E-mail ID here" type="text" />
+        <div class="clr"></div>
+        <a href="#" class="sub_btn">Submit</a>
+        <div class="clr"></div>
+        <div class="alert_red">Please enter a valid E-mail Address</div>
+        <div class="alert_green">Thanks, your address has been added</div>
+      </div>
+    </div>
+  </div>
+  <div id="copy_cont">
+    <div class="copy">
+      <p class="copyright f_left">©2013 iDiveTrips. All right reserved.</p>
+      <p class="copy_nav f_left"> <a href="#">About iDiveTrips</a> | <a href="#">Contact a Dealer</a> | <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> | <a href="#">Sitemap</a> </p>
+      <div class="social f_right">
+        <ul class="f-icons">
+          <li class="fb"><a href="#">Facebook</a> </li>
+          <li class="tw"><a href="#">Twitter</a> </li>
+          <li class="plus"><a href="#">Google Plus</a> </li>
+          <li class="in"><a href="#">Linked In</a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!--// Header--> 
+
+<!--date picker--> 
+<script src="js/date/jquery-ui.js"></script>
+<style type="text/css">
+@import url("css/date/demos.css");
+</style>
+<style type="text/css">
+@import url("css/date/jquery.ui.datepicker.css");
+</style>
+<style type="text/css">
+@import url("css/date/jquery-ui.css");
+</style>
+<script>
+	$(function() {
+		$( "#datepicker" ).datepicker();
+		$( "#datepicker1" ).datepicker();
+	});
+</script> 
+<!--// date picker-->
+
+
+<!--// alertbox-->
+</body>
+</html>

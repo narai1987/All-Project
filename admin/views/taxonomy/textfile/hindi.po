@@ -1,0 +1,3 @@
+text=Operator;value=प्रचालक
+text=trips;value=लंबी पैदल यात्रा
+text=create an account;value=एक खाता बनाने

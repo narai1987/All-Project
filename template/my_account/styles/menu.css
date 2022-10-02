@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menu div.btn_part
+{
+	width:75%;
+}
+
+.btn_part ul {
+			font-size: 9pt;
+			list-style: none;
+			z-index:10;
+			position:absolute;
+			margin-top:0px;
+			font-family:Arial, Helvetica, sans-serif;
+		}
+		.btn_part ul li {
+			display: block;
+			position: relative;
+			float:left;
+			min-height:27px;
+			/*background:url(../images/sep_m.png) no-repeat;*/
+			border-right:1px solid #00446d;
+			vertical-align:middle;
+			/*background-position:right center;
+			min-height:20px;
+			margin-left:0px;*/
+			padding-top:13px;
+		}
+		
+		.btn_part ul li a {
+			text-decoration:none;
+			color:#ffffff;
+			margin:0px 15px 0 15px;
+			font-weight:bold;
+			text-shadow:0 0 1px #cccccc;
+			word-spacing:2px;
+		}
+		.btn_part ul li a:hover{
+			text-decoration:underline;
+		}
+		.btn_part ul li a em {
+			font-style:normal;
+			color:#7fb600;
+		}
+		.btn_part ul li span
+		{
+			color:#a2a2a2;
+		}
+		
+		
+ ._search
+ {
+	 width:20%;
+	 background:#f1f1f1;
+	 -webkit-border-radius: 15px;
+-moz-border-radius:15px;
+border-radius:15px;
+padding-left:4px;
+margin-top:6px;
+}		
+	.s_box
+{
+	margin-top:3px;
+}
+	.search_text
+{
+	width:153px;
+	color:#4d4d4d;
+	background:none;
+	font-size:8pt;
+	padding:3px 6px 3px 6px;
+	outline:none;
+	border:none;
+	
+}	
+.search_but
+{
+	margin-top:2px;
+}

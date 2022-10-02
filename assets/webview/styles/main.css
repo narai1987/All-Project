@@ -1,0 +1,503 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;/*
+	border:none;*/
+	margin:0;
+}
+@font-face {
+     font-family:HelveticaNeue;
+   /* src: url(http://www.example.org/mycustomfont.ttf) format("truetype");
+   src:url(../font/MinionPro-Medium.otf) format("truetype");*/
+	src:url(../font/HelveticaNeue.ttf) format("truetype");
+	
+}
+html
+{
+	height:100% !important;
+}
+a img{border:none;}
+body
+{
+	
+	font-size:16px;
+	font-style:normal;
+	padding:0;
+	margin:0 auto;
+	/*background-color:#f00 !important;
+	font-family:"Myriad Pro";*/
+	
+	font-family:HelveticaNeue;
+}
+#container
+{
+	width:100%;
+	font:9pt HelveticaNeue ;
+	padding-top:3px;
+	display:inline-block;	
+	/*background:url(../images/frame_bg.png) no-repeat center bottom;
+	background-size:320px 152px;
+	min-height:480px;*/
+}
+#header
+{
+	width:100%;
+	margin:0 auto;
+	background:url(../images/logo.png) no-repeat center center;
+	background-size:149px 37px;
+	min-height:38px;
+	/*line-height:61px;*/
+	border-bottom:5px solid #bb9652;
+}
+.left
+{
+	float:left;
+}
+.right
+{
+	float:right;
+}
+#content
+{
+	width:100%;
+	font:9pt HelveticaNeue;
+}
+
+
+/*-----------Promotion list-----------*/
+#content div.promotion_list
+{
+	width:100%;
+	display:block;
+}
+/*#content div.promotion_list a
+{
+	width:100%;
+	text-decoration:none;
+	display:inline-block;
+	clear:both;	
+}*/
+#content div.promotion_list div.promo_box
+{
+	width:100%;
+	margin:0 auto;
+	position:relative;
+	display:inline-block;
+}
+#content div.promotion_list div.promo_box div.img_container
+{
+	width:100%;
+	display:inline-block;
+	position:relative;
+}
+#content div.promotion_list div.promo_box div.img_container img
+{
+	width:100%;
+	border:none;
+}
+#content div.promotion_list div.promo_box div.promo_cont, #content div.promotion_list div.promo_box div.airline_next
+{
+	width:96%;
+	background:url(../images/red.png) no-repeat right center;
+	background-size:21px 21px;
+	position:relative;
+	line-height:25px;
+	margin:0 auto;
+	min-height:25px;
+	margin-top:-38px;
+	color:#ffffff;
+	font:11pt HelveticaNeue;
+	font-weight:bold;
+	padding-top:8px;
+}
+/*-----------Promotion list Close-----------*/
+
+
+
+/*-----------My Account list-----------*/
+#content div.my_account
+{
+	width:100%;
+	display:inline-block;
+}
+#content div.my_account div.black_title
+{
+	/*background:#3f3f3f;*/
+	display:inline-block;
+	width:100%;
+}
+#content div.my_account div.black_title p
+{
+	padding:7px;
+	color:#ffffff;
+	display:list-item;
+	font:10pt HelveticaNeue;
+	line-height:20px;
+	clear:both;
+}
+#content div.my_account div.black_title p em
+{
+	color:#ffffff;
+	font-style:normal;
+}
+#content div.my_account div.black_title p span
+{
+	color:#ffffff;
+	font-style:normal;
+}
+
+#content div.my_account div.red_title
+{
+	background:#eb1c24;
+}
+#content div.my_account div.red_title p
+{
+	padding:7px;
+	color:#fffffd;
+	font:10pt HelveticaNeue;
+	line-height:20px;
+}
+#content div.my_account div.white_base
+{
+	width:100%;
+	display:inline-block;
+	line-height:20px;
+	clear:both;
+}
+#content div.my_account div.white_base p
+{
+	padding:7px; 
+	/*width:99%;*/
+	color:#000000;
+	font:10pt HelveticaNeue;
+	/*border-bottom:1px solid #adadaf;*/
+	display:list-item;
+	line-height:20px;
+	clear:both;
+}
+#content div.my_account div.white_base p em
+{
+	color:#000000;
+	font-style:normal;
+}
+#content div.my_account div.white_base p span
+{
+	color:#034ea1;
+	font-style:normal;
+}
+.flyer_promo
+{
+	margin-bottom:10px;
+}
+/*-----------My Account list Close-----------*/
+
+
+/*----------------airline------------------*/
+#content div.promotion_list div.promo_box div.airline_next
+{
+	width:100%;
+	/*background:url(../images/next_button.png) no-repeat right center !important;*/
+	margin-top:-45px;
+	background:url(../images/strip_base.png) repeat !important;
+	display:inline-block;
+	padding-bottom:5px;
+	text-align:left !important;
+	/*background-size:21px 21px !important;*/
+}
+#content div.promotion_list div.promo_box div.airline_next span
+{
+	float:left;
+	margin-left:10px;
+	text-transform:uppercase;
+	text-align:justify;
+	text-align:left !important;
+}
+#content div.promotion_list div.promo_box div.airline_next span em
+{
+	color:#ffc514;
+	font-size:10pt;
+	text-transform:uppercase;
+	font-style:normal;
+	float:none;
+	margin-right:0px;
+	
+}
+#content div.promotion_list div.promo_box div.airline_next em
+{
+	float:right;
+	margin-right:10px;
+}
+/*----------------airline------------------*/
+
+
+
+/*-----------------Idive Trips-----------------*/
+.black_base
+{	
+	width:100%;
+	height:auto;
+	background: -moz-linear-gradient(top, #4a4c53, #222222);
+	background: -webkit-gradient(linear, left top, left bottom, from(#4a4c53), to(#222222));
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#4a4c53',EndColorStr='#222222');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4a4c53, endColorstr=#222222)";
+	background: -o-linear-gradient(top, #4a4c53, #222222);
+}
+.pointer
+{
+	
+	
+	padding:7px 12px !important;
+	font:11pt Arial, Helvetica, sans-serif;
+	color:#ffffff !important;
+	line-height:16px !important;
+}
+.pointer em
+{
+	background:url(../images/pointer.png) no-repeat left center;
+	background-size:6px 10px;
+	font:9pt Arial, Helvetica, sans-serif;
+	padding-left:9px;
+	font-style:normal;
+	color:#ffffff !important;
+}
+.pointer span
+{
+	font:13pt Arial, Helvetica, sans-serif;
+	color:#ffffff !important;
+	font-weight:bold;
+}
+.star
+{
+	/*line-height:normal !important;*/
+	padding:1px !important; 
+	text-align:center;
+}
+.yellow_star
+{
+	width:auto;
+	padding:3px 8px;
+	background:url(../images/yellow_star.png) no-repeat center center;
+	background-size:20px;
+	text-decoration:none;
+}
+.grey_star
+{
+	width:auto;
+	padding:3px 8px;
+	background:url(../images/gray_star.png) no-repeat;
+	background-size:20px;	
+	text-decoration:none;
+}
+.desc_para
+{
+	width:100%;/*
+	max-height:135px;
+	overflow:auto;*/
+	text-align:justify;
+}
+.desc_para p
+{
+	font:10pt HelveticaNeue;
+	color:#454545 !important;
+	padding:7px 7px 0px 7px !important;
+}
+.desc_para h2
+{
+	font:12pt HelveticaNeue;
+	color:#454545; 
+	padding:7px 7px 0px 7px;
+	font-weight:bold;
+}
+.desc_para h2 span
+{
+	padding-right:7px;
+}
+.desc_para div.review
+{
+	width:100%;
+	text-align:justify;
+	color:#454545;
+}
+.desc_para div.review p
+{
+	font:10pt HelveticaNeue;
+	color:#454545 !important;
+	padding:3px 7px 0px 7px !important;
+}
+.date
+{
+	font:9pt HelveticaNeue;
+	width:100%;
+	text-align:right;
+	color:#f39a23;
+}
+.date span
+{
+	padding:0px 7px 0px 7px !important;
+}
+
+/*-----------------Idive Trips Close-----------------*/
+
+/*------------Book trips--------------*/
+.booktrip
+{
+	width:98%;
+	margin:0 auto;
+	font:10pt HelveticaNeue;
+	color:#333333;
+	padding:10px 0;
+}
+.booktrip h2
+{
+	color:#333333;
+	font-size:12pt;
+	padding-bottom:5px;
+	margin-bottom:5px;	
+	border-bottom:1px dashed #cccccc;
+}
+.booktrip h2 span
+{
+	padding:4px;
+}
+.booktrip div.scedule
+{
+	width:100%;
+	padding:10px 0;
+	margin:0 auto;
+	clear:both;
+}
+.date_trip, .person
+{
+	width:48%;
+	border:1px solid #CCC;
+	height:30px;
+	font:10pt HelveticaNeue; 
+}
+
+.bookField
+{
+	/*width:100%;*/
+	border:1px solid #f3b700;
+	padding:5px;
+	margin:5px;
+	margin:0 auto;
+	color:#222222;
+	background:#ffffff;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	line-height:22px;
+	margin-bottom:7px;
+	
+}
+.bookField legend
+{
+	color:#ffffff;
+	font-size:10pt;
+	/*-moz-box-shadow:    inset 0 0 7px #BBA00B;
+   -webkit-box-shadow: inset 0 0 7px #BBA00B;
+   box-shadow:         inset 0 0 7px #BBA00B;*/
+   background: #ffffff;
+background: -moz-linear-gradient(top, #f3b700 0%, #BBA00B 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3b700), color-stop(100%,#BBA00B));
+background: -webkit-linear-gradient(top, #f3b700 0%,#BBA00B 100%);
+background: -o-linear-gradient(top, #f3b700 0%,#BBA00B 100%);
+background: -ms-linear-gradient(top, #f3b700 0%,#BBA00B 100%);
+background: linear-gradient(to bottom, #f3b700 0%,#BBA00B 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3b700', endColorstr='#BBA00B',GradientType=0 );
+   border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+   /*background:#f3b700;*/
+   padding:1px 3px;
+}
+.per_bold
+{
+	font-size:8pt;
+	font-weight:bold;
+}
+.price
+{
+	color:#C30;
+	font-weight:normal !important;
+}
+.tabls
+{
+	width:100%;
+	line-height:22px;
+	color:#222222;
+}
+.person
+{
+	width:99%;
+	margin-bottom:5px;
+}
+/* MOBILE TRIP BOOKING START HERE*/
+.divcabin {
+	clear:both;
+	display:none;	
+	border:1px solid #f3b700;
+	padding:5px;
+	margin:5px;
+	margin:0 auto;
+	color:#222222;
+	background:#ffffff;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	line-height:22px;
+	margin-bottom:7px;
+}/*
+div.cartHead, div.cartdata {
+	width:100%;
+}
+div.cartHead div, div.cartdata div {
+	width:10%;
+	float:left;
+}
+.clearboth {
+	clear:both;	
+}
+.width70 {
+	width:70% !important;	
+}*/
+/* MOBILE TRIP BOOKING END HERE*/
+/*------------Book trips--------------*/
+
+/*----------------Cart Detail-----------------*/
+.cart_bob
+{
+	border-bottom:1px dashed #cccccc;
+	line-height:40px;
+}
+.cart_font
+{
+	font:12pt HelveticaNeue;
+	font-weight:bold;
+	color:#09F;
+}
+.qty
+{
+	width:95%;
+	border:1px solid #CCC;
+	height:25px;
+	text-align:center;
+	font:10pt HelveticaNeue; 
+}
+/*.qty
+{
+	width:30%;
+	border:1px solid #CCC;
+	height:25px;
+	text-align:center;
+	font:10pt HelveticaNeue; 
+}
+/*.increase
+{
+	font:15pt Arial, Helvetica, sans-serif;
+	color:#FC0;
+	padding:2px;
+	font-weight:bold;
+	line-height:25px;
+}*/
+/*----------------Cart Detail-----------------*/

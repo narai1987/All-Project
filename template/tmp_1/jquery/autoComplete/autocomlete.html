@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <script src="pppjquery-1.4.2.js"></script>
+  <link rel="stylesheet" href="jquery.autocomplete.css" type="text/css" />
+  
+  <script type="text/javascript" src="jquery.autocomplete.js"></script>
+  
+  <script>
+  $(document).ready(function(){
+    var data = "AndraPradesh ArunachalPradesh Assam Bihar Chhattisgarh Goa Gujarat Haryana HimachalPradesh Jammuan&Kashmir Jharkhand Karnataka Kerala MadyaPradesh Maharashtra Manipur Meghalaya Mizoram Nagaland Orissa Punjab Rajasthan Sikkim Tamil Nadu Tripura Uttaranchal UttarPradesh WestBengal".split(" ");
+$("#example").autocomplete(data);
+  });
+  </script>
+  
+</head>
+<body>
+<b><font color="red">ENTER INDIAN 'STATE' NAME TO SEE AUTOCOMPLETE</font></b>
+<br><br> Enter States <input id="example" />
+</body>
+</html>

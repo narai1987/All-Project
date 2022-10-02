@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Pic Your Food</title>
+<link rel="stylesheet" href="styles/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="styles/menu.css" type="text/css" media="screen" />
+
+<!-- ----------left Menu script--------    --->
+<link rel="stylesheet" href="jquery/collasp/collaps.css" type="text/css" media="all">
+<script type="text/javascript" src="jquery/collasp/jquery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	$(".accordion2 h3").eq(0).addClass("active");
+	$(".accordion2 div").eq(0).show();
+
+	$(".accordion2 h3").click(function(){
+		$(this).next("div").slideToggle("slow")
+		.siblings("div:visible").slideUp("slow");
+		$(this).toggleClass("active");
+		$(this).siblings("h3").removeClass("active");
+	});
+
+});
+</script>
+<!--            ----------left Menu script Close--------    --->
+
+<!-- -------------Chart style------------ -->
+  <link href="jquery/chart/css/style.css" rel="stylesheet">
+  <script src="jquery/chart/js/jquery-1.7.2.min.js"></script>
+  <script src="jquery/chart/js/flot/jquery.flot.js"></script>
+  <script src="jquery/chart/js/qtip/jquery.qtip.min.js"></script>
+  <script src="jquery/chart/js/charts.js"></script>
+<!-- -------------Chart style Close------------ -->
+</head>
+
+<body>
+<!--Header-->
+<div id="header_p">
+<div id="header">
+<div class="logo left"><a href="index.html"><img src="images/logo.png" alt="Pic Your Food" /></a></div>
+
+
+<div class="welcome_user right">
+<a href="#" class="left">Welcome John Doe !</a>
+<ul>
+<li><a href="#"><img src="images/setting.png" alt="" /></a>
+<ul>
+<li><a href="#">Edit Account</a></li>
+<li class="top_m_radius"><a href="#">Change Password</a></li>
+</ul>
+
+
+</li>
+<li><a href="#"><img src="images/logout.png" alt="" /></a></li>
+</ul>
+ </div>
+</div>
+</div>
+<!--Header Close-->
+<!--Menu-->
+<div id="menu_p">
+<div id="menu">
+<div class="menu" >
+<div class="btn_part left">
+<ul>
+<li class="active" style="padding-top:7px;"><a href="#"><div class="home"></div></a></li>
+<!--<li><a href="#">About Us</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Providers</a></li>
+<li><a href="#">Contact Us</a></li>-->
+</ul>
+</div>
+
+
+<div class="_search left">
+<div class="s_box left"><input type="text" placeholder="Search your Terms" class="search_text" /></div>
+<div class="left"><a href="#"><img src="images/search_btn.png" alt="search" class="search_but" /></a></div>
+</div>
+
+<div class="message_strip right">
+<div class="msg_iconBox msg_borderleft msg_Message left"><a class="msg_alert">10</a></div>
+<div class="msg_iconBox msg_FriendRequest left"><a class="msg_alert">54</a></div>
+<div class="msg_iconBox msg_borderright msg_Visitors right"><a class="msg_alert">100</a></div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+<!--Menu Close-->
+<!--Container-->
+<div id="container">
+<div class="content">
+
+<div class="left_content left">
+  <div class="page_icon">
+    
+<div class="widget">
+            	<h2 class="widget-heading"><div class="chart_icon"><strong>Charts with data points</strong></div></h2>
+              <div class="inner-widget">
+              	<div id="chart_example1" style="width: 100%; height:250px"></div>
+              </div>
+            </div>
+       
+
+</div>
+
+</div>
+
+ 
+
+
+
+<div class="rightside right">
+        <div class="accordion2">
+	<h3><span class="user_">User Detail</span></h3>
+	<div>
+    <ul class="l_menulist">
+     <li><a href="#" class="left" >Total Users</a> <a class="right tot_alert">23</a></li>
+    <li><a href="#" class="left">New Users</a> <a class="right tot_alert">23</a></li>
+    <li><a href="#" class="left">Active Users</a> <a class="right tot_alert">23</a></li>
+    <li><a href="#" class="left">Deactive Users</a> <a class="right tot_alert">23</a></li>
+    </ul>
+    
+    
+    
+    </div>
+	<h3><span class="mail_">Mail / Message</span></h3>
+	<div>
+    <ul class="l_menulist">
+    <li><a href="#" class="left">Total Messages</a> <a class="right tot_alert">23</a></li>
+    <li><a href="#" class="left">New Messages</a> <a class="right tot_alert">23</a></li>
+    <li><a href="#" class="left">Pending Messages</a> <a class="right tot_alert">23</a></li>
+    </ul>
+    </div>
+	<h3><span class="notification_">Notifications</span></h3>
+	<div>
+    <ul class="l_menulist">
+    <li><a href="#" class="left">Total Visits</a> <a class="right tot_alert">23</a></li>
+    <li><a href="#" class="left">New Visits</a> <a class="right tot_alert">23</a></li>
+    <li><a href="#" class="left">New Posts</a> <a class="right tot_alert">23</a></li>
+    <li><a href="#" class="left">Report Abuse</a> <a class="right tot_alert">23</a></li>
+    </ul>
+    </div>
+	<h3><span class="acco_set_">Account Settings</span></h3>
+	<div>
+    <ul class="l_menulist">
+    <li><a href="#" class="left">Edit Account</a> <a class="right tot_alert">23</a></li>
+    <li><a href="#" class="left">Change Password</a> <a class="right tot_alert">23</a></li>
+    </ul>
+    </div>
+	
+    
+</div>
+        
+        
+        </div>
+
+</div>
+</div>
+<!--Container Close-->
+
+<!--footer starts-->
+<div id="footer_p">
+<div id="footer">
+<div class="f_menu left_drag">
+<p>
+© Pic Your Food 2013, All Rights Reserved.
+</p>
+</div>
+
+</div>
+
+
+</div>
+<!--footer close-->
+
+
+
+</body>
+</html>

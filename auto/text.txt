@@ -1,0 +1,1 @@
+SELECT distinct(city) FROM `cities` WHERE state_id = '10' and `city` LIKE 'e%'  ORDER BY `city`

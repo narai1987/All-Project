@@ -1,0 +1,285 @@
+text=Click to Deactive;value=คลิกที่นี่เพื่อ deactive
+text=Edit;value=แก้ไข
+text=News & Announcements;value=ข่าวและประกาศ
+text=ADD NEW;value=เพิ่มใหม
+text=Phone No;value=โทรศัพท์ไม่มี
+text=Confirm Password;value=ยืนยันรหัสผ่าน
+text=New Password;value=รหัสผ่านตัวใหม่
+text=Old Password;value=รหัสผ่านเก่า
+text=Subscribe;value=สมัครสมาชิก
+text=Nationality;value=สัญชาติ
+text=Mobile No;value=ไม่มีมือถือ
+text=City;value=เมือง
+text=State;value=รัฐ
+text=Gender;value=เพศ
+text=DOB;value=วันเกิด
+text=Email-ID;value=อีเมล์-ID
+text=Last Name;value=นามสกุล
+text=First Name;value=ชื่อแรก
+text=Contact Detail;value=รายละเอียดติดต่อ
+text=Personal Detail;value=รายละเอียดส่วนบุคคล
+text=My Profile;value=โปรไฟล์ของฉัน
+text=Qr Code;value=รหัส QR
+text=Users;value=ผู้ใช้งาน
+text=Languages;value=ภาษา
+text=Promotions;value=โปรโมชั่น
+text=Statistics;value=สถิต
+text=Announcements;value=ประกาศ
+text=Contacts;value=ติดต่อ
+text=Contact;value=ติดต่อ
+text=User Detail;value=รายละเอียดผู้ใช้
+text=Total Users;value=สมาชิกทั้งหมด
+text=Search;value=ค้นหา
+text=Rate;value=อัตรา
+text=My Office;value=Office ของฉัน
+text=Actions;value=การปฏิบัติ
+text=Title;value=ชื่อเรื่อง
+text=Promotions;value=โปรโมชั่น
+text=Show Entries;value=แสดงคอมเมนต์
+text=Edit Account;value=แก้ไขบัญชี
+text=Change Password;value=เปลี่ยนรหัสผ่าน
+ิtext=New Users;value=ผู้ใช้งานใหม่
+text=Active Users;value=ผู้ใช้งานที่ใช้งานล่าสุด
+text=Deactive Users;value=ผู้ใช้ deactive
+text=Mail / Message;value=/ จดหมายข้อความ
+text=Total Messages;value=ข้อความทั้งหมดม
+text=New Messages;value=ข้อความใหม่
+text=ending Messages;value=ข้อความที่สิ้นสุด
+text=Notifications;value=การแจ้งเตือน
+text=Total Visits;value=การเยี่ยมชมทั้งหมด
+text=New Visits;value=การเข้าชมใหม่
+text=New Posts;value=ตอบกระทู้ใหม่
+text=Report Abuse;value=รายงานการใช้ผิดวิธี
+text=Account Settings;value=การตั้งค่าบัญชี
+text=Edit Account;value=แก้ไขบัญชี
+text=Change Password;value=เปลี่ยนรหัสผ่าน
+text=Welcome;value=ยินดีต้อนรับ
+text=User ID;value=ผู้ใช้ ID
+text=Name;value=ชื่อ
+text=Email;value=อีเมล์
+text=Country;value=ประเทศ
+text=Contact Us;value=ติดต่อเรา
+text=About Us;value=เกี่ยวกับเรา
+text=Articles;value=บทความ
+text=News Letters;value=จดหมายข่าว
+text=Templates;value=แม่แบบ
+text=Iframes;value=iframes
+text=Subject;value=เรื่อง
+text=Design for;value=ที่ออกแบบมาสำหรับ
+text=Quick Links;value=ลิงค์ที่ใช้บ่อย
+text=Preview;value=แสดงตัวอย่าง
+text=Mobile;value=โทรศัพท์มือถือ
+text=Phone;value=โทรศัพท์
+text=Thumb Image;value=ภาพที่นิ้วหัวแม่มือ
+text=Image;value=ภาพ
+text=Add;value=เพิ่ม
+text=Dashboard;value=หน้าปัด
+text=EDIT;value=แก้ไข
+text=Address;value=ที่อยู่
+text=Content;value=เนื้อหา
+text=Show on home;value=แสดงในบ้าน
+text=Zip Code;value=รหัสไปรษณีย์
+text=Gallery;value=เฉลียง
+text=Call Center;value=คอลเซ็นเตอร์
+text=View Map;value=ดูแผนที่
+text=Operator;value=ผู้ประกอบการ
+text=trips;value=ทริป
+text=events;value=เหตุการณ์ที่เกิดขึ้น
+text=Products;value=ผลิตภัณฑ์
+text=home;value=บ้าน
+text=Welcome visitor you can;value=ยินดีต้อนรับผู้เข้าชมที่คุณสามารถ
+text=create an account;value=สร้างบัญชี
+text=Day Trips;value=ทริปวัน
+text=Liveabords;value=ทริปยาว
+text=Monthly E-News Letter;value=รายเดือนจดหมายข่าวอิเล็กทรอนิกส์
+text=Subscribe to our newsletter and get exclusive deals you wont find anywhere;value=สมัครรับจดหมายข่าวของเราและได้รับข้อเสนอพิเศษที่คุณจะไม่พบทุกที่
+text=E-mail ID here;value=E-mail รหัสที่นี่
+text=Submit;value=เสนอ
+text=All right reserved;value=สงวนลิขสิทธิ์
+text=Our Trips;value=ทริปของเรา
+text=View boat specification;value=ดูสเปคเรือ
+text=Start Date;value=วันที่เริ่มต้น
+text=End Date;value=วันที่สิ้นสุด
+text=No of Dives;value=ไม่มีของ การดำน้ำ
+text=Description;value=ลักษณะ
+text=Country;value=ประเทศ
+text=Space Left;value=พื้นที่ด้านซ้าย
+text=Origin;value=ที่มา
+text=No trips found;value=ไม่พบการเดินทาง
+text=Share Your Story;value=แบ่งปันเรื่องราวของคุณ
+text=Owners;value=เจ้าของธุรกิจ
+text=Sportswear;value=กีฬา
+text=Tips;value=เคล็ดลับ
+text=Safety;value=ความปลอดภัย
+text=Boat Name;value=ชื่อเรือ
+text=Space left;value=พื้นที่ที่เหลือ
+text=Destination;value=จุดหมายปลายทาง
+text=Days;value=วัน
+text=Nights;value=คืน
+text=Dives;value=การดำน้ำ
+text=Cabin Pricing (per pax);value=ราคาห้องโดยสาร (ต่อท่าน)
+text=Available Options;value=ตัวเลือกที่มีอยู่
+text=Review;value=ทบทวน
+text=Total;value=รวมทั้งหมด
+text=Book Now;value=จองตอนนี้
+text=Specification;value=สเปค
+text=Related Trips;value=ทริปที่เกี่ยวข้อง
+text=No Items;value=ไม่มีรายการ
+text=View all trips;value=ดูการเดินทางทั้งหมด
+text=No reviews found;value=ไม่มีการพบ
+text=CUSTOMER REVIEW;value=ความคิดเห็นของลูกค้า
+text=Important Notice;value=เวปไซด์ที่สำคัญ
+text=Package Includes;value=แพคเกจรวม
+text=Package Excludes;value=ไม่รวมแพคเกจ
+text=Day;value=วัน
+text=You can add upto 3 trips to compare;value=คุณสามารถเพิ่มไม่เกิน 3 ทริปที่จะเปรียบเทียบ
+text=Duration;value=ระยะเวลา
+text=Price;value=ราคา
+text=Boat Specification;value=เรือสเปค
+text=Length Overall;value=ความยาวโดยรวม
+text=Beam;value=คาน
+text=Draft-Drive Up-High Trim;value=ร่างไดรฟ์ขึ้นสูงตัด
+text=Draft-Drive Down;value=ร่างไดรฟ์ลง
+text=Deadrise;value=คนตาย
+text=Approximate Dry Weight;value=น้ำหนักแห้งประมาณ
+text=Estimated Height On Trailer-Top of Windshield;value=ประมาณความสูงที่พ่วง - ด้านบนของกระจก
+text=Boat Height-Windshield To Keel;value=เรือสูง - กระจกเพื่อกระดูกงู
+text=Bridge Clearance-Top Up;value=สะพาน การกวาดล้าง - Top Up
+text=Bridge Clearance-Top Down;value=สะพาน การกวาดล้าง - Top ลง
+text=Cockpit Depth-Helm;value=ห้องนักบินระดับความลึก - พวงมาลัย
+text=Cockpit Storage;value=นักบินที่จัดเก็บ
+text=Fuel Capacity;value=ความจุเชื้อเพลิง
+text=Boat Technical Features;value=คุณสมบัติทางเทคนิคเรือ
+text=Technical Features;value=คุณสมบัติทางเทคนิค
+text=Engine Options;value=ตัวเลือกเครื่องยนต์
+text=Technical Options;value=ทางเทคนิค
+text=Boat Engine & Technical Options;value=เรือเครื่องยนต์และตัวเลือกทางเทคนิค
+text=Overview;value=ภาพรวม
+text=Floorplans;value=ผัง
+text=Gallery;value=เฉลียง
+text=Specs;value=รายละเอียด
+text=Featured & Options;value=ที่โดดเด่นและตัวเลือก
+text=Exterior;value=ภายนอก
+text=Interior;value=ภายใน
+text=No Gallery Found;value=ไม่พบแกลเลอรี่
+text=Specifications;value=ข้อมูลจำเพาะของ
+text=Interior Features;value=สิ่งอำนวยความสะดวกภายใน
+text=Cockpit Features;value=สิ่งอำนวยความสะดวกในห้องนักบิน
+text=Helm Features;value=คุณสมบัติหางเสือ
+text=Hull & Deck Features;value=ฮัลล์และดาดฟ้าคุณสมบัติ
+text=Action;value=การกระทำ
+text=Trip Price;value=ราคาการเดินทาง
+text=Trip Name;value=ชื่อการเดินทาง
+text=My Wishlist;value=ของฉันรายชื่อที่ร้องขอ
+text=No items found;value=ไม่พบรายการ
+text=Continue;value=ต่อ
+text=Edit your account information;value=แก้ไขข้อมูลบัญชีของคุณ
+text=Change your password;value=เปลี่ยนรหัสผ่านของคุณ
+text=Modify your address book entries;value=ปรับเปลี่ยนรายการหนังสือที่อยู่ของคุณ
+text=Modify your wishlist;value=แก้ไขสิ่งที่คุณอยาก
+text=My Orders;value=คำสั่งของฉัน
+text=View your order history;value=ดูประวัติการสั่งซื้อของคุณ
+text=Your Rewards Points;value=คะแนนสะสมของคุณ
+text=View your coupons;value=ดูคูปองของคุณ
+text=Your Transactions;value=การทำธุรกรรมของคุณ
+text=Newsletter;value=จดหมายข่าว
+text=Subscribe to our newsletter;value=สมัครรับจดหมายข่าวของเรา
+text=My Account Information;value=ข้อมูลบัญชีของฉัน
+text=Your Personal Details;value=รายละเอียดส่วนบุคคลของคุณ
+text=Username;value=ชื่อผู้ใช้
+text=First Name;value=ชื่อแรก
+text=Last Name;value=นามสกุล
+text=E-Mail;value=อีเมล์
+text=Mobile;value=โทรศัพท์มือถือ
+text=Update;value=ปรับปรุง
+text=Address Book;value=สมุดที่อยู่
+text=Address Book Entries;value=สมุดที่อยู่รายการ
+text=New Address Entry;value=รายการที่อยู่ใหม่
+text=Address;value=ที่อยู่
+text=City;value=เมือง
+text=Post Code;value=รหัสไปรษณีย์
+text=Region/State;value=ภาค / รัฐ
+text=Edit;value=แก้ไข
+text=Delete;value=ลบ
+text=Order History;value=ประวัติการสั่งซื้อ
+text=My Trips;value=การเดินทางของฉัน
+text=Checkout Status;value=สถานะการชำระเงิน
+text=You have not order any trip yet;value=ท่านยังไม่ได้สั่งการเดินทางใด ๆ
+text=Return Date;value=กลับวันที่
+text=Departure Date;value=วันที่ออกเดินทาง
+text=Booking Date;value=วันที่จองห้องพัก
+text=Persons;value=บุคคล
+text=Children;value=เด็ก ๆ
+text=Grand Total;value=แกรนด์รวม
+text=Rate It;value=ให้คะแนน
+text=Trip Price;value=ราคาการเดินทาง
+text=Origin;value=ที่มา
+text=Rewards;value=ผลตอบแทนที่
+text=My Rewards;value=รางวัลของฉัน
+text=Remain Points;value=ยังคงเป็นจุด
+text=Points Details(Log);value=คะแนนรายละเอียด (เข้าสู่ระบบ)
+text=Subscribe;value=สมัครสมาชิก
+text=My Coupon;value=คูปองของฉัน
+text=New Coupon;value=คูปองใหม่
+text=Used Coupon;value=คูปองที่ใช้
+text=Redeem;value=ไถ่ถอน
+text=Cancel;value=ยกเลิก
+text=Share;value=ส่วนแบ่ง
+text=You have not used any coupon yet;value=คุณไม่ได้ใช้คูปองใด ๆ
+text=Discount;value=ส่วนลด
+text=Last Date;value=วันที่ผ่านมา
+text=Password;value=รหัสผ่าน
+text=Address Books;value=หนังสือที่อยู่
+text=Order History;value=ประวัติการสั่งซื้อ
+text=Transactions;value=การทำธุรกรรม
+text=Select Country;value=เลือกประเทศ
+text=Select Origin;value=เลือกแหล่งกำเนิดสินค้า
+text=Select Destination;value=เลือกปลายทาง
+text=Departure Date;value=วันที่ออกเดินทาง
+text=Return Date;value=กลับวันที่
+text=Price from: Min;value=ราคาเริ่มต้นที่: นาที
+text=Price from: Max;value=ราคาเริ่มต้นที่: แม็กซ์
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

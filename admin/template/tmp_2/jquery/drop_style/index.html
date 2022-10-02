@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<!------------------------stylish select-------------------------------------->
+<link rel="stylesheet" type="text/css" href="css/stylish-select.css" />
+<script type="text/javascript" src="js/select/jquery.min.js"></script>
+<script src="js/select/jquery.stylish-select.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function()
+{
+    $('.my-dropdown').sSelect();
+});
+</script>
+
+<!------------------------end stylish select-------------------------------------->
+</head>
+
+<body>
+<select class="my-dropdown" name="my-dropdown">
+                    <option value="1">A cappella</option>
+                    <option value="test">Acid Jazz</option>
+                    <option value="3" selected="selected">Big Band</option>
+                    <option value="4">Big Beat</option>
+                    <option value="5">Cakewalk</option>
+                    <option value="6">Calenda</option>
+                    <option value="7">Dark ambient</option>
+                    <option value="8">Dark cabaret</option>
+                  </select>
+</body>
+</html>

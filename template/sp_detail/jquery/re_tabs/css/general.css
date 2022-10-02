@@ -1,0 +1,129 @@
+@CHARSET "UTF-8";
+/******* GENERAL RESET *******/
+/*html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+ tfoot, thead, tr, th, td {
+border:0pt none;
+font-family:inherit;
+font-size: 100%;
+font-style:inherit;
+font-weight:inherit;
+margin:0pt;
+padding:0pt;
+vertical-align:baseline;
+}
+body{
+	background: #fff;
+	line-height:14px;
+	font-size: 12px;
+	font-family: Arial,  Verdana, Helvetica, sans-serif;
+	margin:0pt;
+	cursor:default;
+	overflow: hidden;
+}
+html,body{
+	height:100%;
+	text-align: center;
+}
+.clear{
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	display: block;
+}
+a{
+	text-decoration: none;
+}*/
+/******* GENERAL RESET *******/
+/******* LOGO *******/
+#logo{
+	margin-top: 1em;
+	display: block;
+}
+/******* /LOGO  *******/
+/******* MENU *******/
+#container2{
+	margin: 0em auto;
+	width: 98%;
+}
+#container2 ul{
+	list-style: none;
+	list-style-position: outside;
+}
+#container2 ul.menu_tab
+{
+	display:inline-block;
+}
+#container2 ul.menu_tab li{
+	float: left;
+	margin-right: 1px;
+	margin-bottom: -1px;
+}
+#container2 ul.menu_tab li{
+	/*font-weight: 700;*/
+	display: block;
+	padding: 5px 13px 5px 13px;
+	background: #5986c4;
+	margin-bottom: -1px;
+	/*border: 1px solid #d0ccc9;*/
+	border-width: 1px 1px 1px 1px;
+	position: relative;
+	color: #ffffff;
+	cursor: pointer;
+	-webkit-border-radius:10px 10px 0px 0px;
+-moz-border-radius:10px 10px 0px 0px;
+border-radius:10px 10px 0px 0px;
+}
+#container2 ul.menu_tab li.active{
+	background: #4d4d4d;
+	/*top: 1px;*/
+	border-bottom: 0;
+	color: #ffffff;
+}
+/******* /MENU *******/
+/******* CONTENT *******/
+.content2{
+	margin: 0pt auto;
+	background: #efefef;
+	background: #fff;
+	border: 1px solid #e2e2e2;
+	text-align: left;
+	padding: 10px 0 0px 0;
+	/*padding-bottom: 20px;*/
+	font-size: 11px;
+}
+.content2 h1{
+	line-height: 1em;
+	vertical-align: middle;
+	height: 48px;
+	padding: 10px 10px 10px 52px;
+	font-size: 32px;
+}
+/******* /CONTENT *******/
+/******* NEWS *******/
+.content2.news h1{
+	background: transparent url(images/news.jpg) no-repeat scroll left top;
+}
+.content2.news{
+	display: block;
+}
+/******* /NEWS *******/
+/******* TUTORIALS *******/
+.content2.tutorials h1{
+	background: transparent url(images/tuts.jpg) no-repeat scroll left top;
+}
+.content2.tutorials{
+	display: none;
+}
+/******* /TUTORIALS *******/
+/******* LINKS *******/
+.content2.links h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.content2.links{
+	display: none;
+}
+.content2.links a{
+	color: #5f95ef;
+}
+/******* /LINKS *******/

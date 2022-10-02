@@ -1,0 +1,22 @@
+server path for config
+
+/home/infranix/public_html/androidpush/config.php
+
+api
+
+infranix.net/androidpush/send_message.php?regId=658092606425.apps.googleusercontent.com&message=hellow
+
+here in url "658092606425.apps.googleusercontent.com" is gcm_id
+
+pass regId to gcm_id
+now go to 
+
+http://mobile.lpn.co.th/phpmyadmin
+user:root
+password:root
+
+choose table "device_favorites"
+
+get "gcm_id" 
+
+and use this id to config file in infranix.net (config.php) file describe previous.

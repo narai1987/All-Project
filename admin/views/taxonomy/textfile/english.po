@@ -1,0 +1,174 @@
+text=Operator;value=Operator
+text=trips;value=trips
+text=events;value=Events
+text=Products;value=Products
+text=home;value=Home
+text=Welcome;value=Welcome
+text=Wishlist;value=Wishlist
+text=Compare;value=Compare
+text=My Account;value=My Account
+text=Logout;value=Logout
+text=Login;value=Login
+text=Last Minute Trips;value=Last Minute Trips
+text=read more;value=Read More
+text=Liveabords;value=Liveabords
+text=Day Trips;value=Day Trips
+text=Monthly E-News Letter;value=Monthly E-News Letter
+text=Welcome visitor you can;value=Welcome visitor you can
+text=create an account;value=create an account
+text=Day Trips;value=Day Trips
+text=Liveabords;value=Liveabords
+text=Monthly E-News Letter;value=Monthly E-News Letter
+text=Subscribe to our newsletter and get exclusive deals you wont find anywhere;value=Subscribe to our newsletter and get exclusive deals you wont find anywhere
+text=E-mail ID here;value=E-mail ID here
+text=Submit;value=Submit
+text=All right reserved;value=All right reserved
+text=Our Trips;value=Our Trips
+text=View boat specification;value=View boat specification
+text=Start Date;value=Start Date
+text=End Date;value=End Date
+text=No of Dives;value=No of Dives
+text=Description;value=Description
+text=Country;value=Country
+text=Space Left;value=Space Left
+text=Origin;value=Origin
+text=No trips found;value=No trips found
+text=Share Your Story;value=Share Your Story
+text=Owners;value=Owners
+text=Sportswear;value=Sportswear
+text=Tips;value=Tips
+text=Safety;value=Safety
+text=Boat Name;value=Boat Name
+text=Space left;value=Space left
+text=Destination;value=Destination
+text=Days;value=Days
+text=Nights;value=Nights
+text=Dives;value=Dives
+text=Cabin Pricing (per pax);value=Cabin Pricing (per pax)
+text=Available Options;value=Available Options
+text=Review;value=Review
+text=Total;value=Total
+text=Book Now;value=Book Now
+text=Specification;value=Specification
+text=Related Trips;value=Related Trips
+text=No Items;value=No Items
+text=View all trips;value=View all trips
+text=No reviews found;value=No reviews found
+text=CUSTOMER REVIEW;value=CUSTOMER REVIEW
+text=Important Notice;value=Important Notice
+text=Package Includes;value=Package Includes
+text=Package Excludes;value=Package Excludes
+text=Day;value=Day
+text=You can add upto 3 trips to compare;value=You can add upto 3 trips to compare
+text=Duration;value=Duration
+text=Boat Specification;value=Boat Specification
+text=Length Overall;value=Length Overall
+text=Beam;value=Beam
+text=Draft-Drive Up-High Trim;value=Draft-Drive Up-High Trim
+text=Draft-Drive Down;value=Draft-Drive Down
+text=Deadrise;value=Deadrise
+text=Approximate Dry Weight;value=Approximate Dry Weight
+text=Estimated Height On Trailer-Top of Windshield;value=Estimated Height On Trailer - Top of Windshield
+text=Boat Height-Windshield To Keel;value=Boat Height - Windshield To Keel
+text=Bridge Clearance-Top Up;value=Bridge Clearance - Top Up
+text=Bridge Clearance-Top Down;value=Bridge Clearance - Top Down
+text=Cockpit Depth-Helm;value=Cockpit Depth - Helm
+text=Cockpit Storage;value=Cockpit Storage
+text=Fuel Capacity;value=Fuel Capacity
+text=Boat Technical Features;value=Boat Technical Features
+text=Technical Features;value=Technical Features
+text=Engine Options;value=Engine Options
+text=Technical Options;value=Technical Options
+text=Boat Engine & Technical Options;value=Boat Engine & Technical Options
+text=Overview;value=Overview
+text=Floorplans;value=Floorplans
+text=Gallery;value=Gallery
+text=Specs;value=Specs
+text=Featured & Options;value=Featured & Options
+text=Exterior;value=Exterior
+text=Interior;value=Interior
+text=No Gallery Found;value=No Gallery Found
+text=Specifications;value=Specifications
+text=Interior Features;value=Interior Features
+text=Cockpit Features;value=Cockpit Features
+text=Helm Features;value=Helm Features
+text=Hull & Deck Features;value=Hull & Deck Features
+text=Action;value=Action
+text=Trip Price;value=Trip Price
+text=Trip Name;value=Trip Name
+text=My Wishlist;value=My Wishlist
+text=No items found;value=No items found
+text=Continue;value=Continue
+text=Edit your account information;value=Edit your account information
+text=Change your password;value=Change your password
+text=Modify your address book entries;value=Modify your address book entries
+text=Modify your wishlist;value=Modify your wishlist
+text=My Orders;value=My Orders
+text=View your order history;value=View your order history
+text=Your Rewards Points;value=Your Rewards Points
+text=View your coupons;value=View your coupons
+text=Your Transactions;value=Your Transactions
+text=Newsletter;value=Newsletter
+text=Subscribe to our newsletter;value=Subscribe to our newsletter
+text=My Account Information;value=My Account Information
+text=Your Personal Details;value=Your Personal Details
+text=Username;value=Username
+text=First Name;value=First Name
+text=Last Name;value=Last Name
+text=E-Mail;value=E-Mail
+text=Mobile;value=Mobile
+text=Update;value=Update
+text=Change Password;value=Change Password
+text=Your Password;value=Your Password
+text=Password changed sucessfully;value=Password changed sucessfully
+text=Old Password;value=Old Password
+text=New Password;value=New Password
+text=Confirm Password;value=Confirm Password
+text=Address Book;value=Address Book
+text=Address Book Entries;value=Address Book Entries
+text=New Address Entry;value=New Address Entry
+text=Address;value=Address
+text=City;value=City
+text=Post Code;value=Post Code
+text=Region/State;value=Region/State
+text=Edit;value=Edit
+text=Delete;value=Delete
+text=Order History;value=Order History
+text=My Trips;value=My Trips
+text=Checkout Status;value=Checkout Status
+text=You have not order any trip yet;value=You have not order any trip yet
+text=Return Date;value=Return Date
+text=Departure Date;value=Departure Date
+text=Booking Date;value=Booking Date
+text=Trip Price;value=Trip Price
+text=Origin;value=Origin
+text=Persons;value=Persons
+text=Children;value=Children
+text=Grand Total;value=Grand Total
+text=Rate It;value=Rate It
+text=Rewards;value=Rewards
+text=My Rewards;value=My Rewards
+text=Remain Points;value=Remain Points
+text=Points Details(Log);value=Points Details(Log)
+text=Subscribe;value=Subscribe
+text=My Coupon;value=My Coupon
+text=New Coupon;value=New Coupon
+text=Used Coupon;value=Used Coupon
+text=Redeem;value=Redeem
+text=Cancel;value=Cancel
+text=Share;value=Share
+text=You have not used any coupon yet;value=You have not used any coupon yet
+text=Discount;value=Discount
+text=Last Date;value=Last Date
+text=Password;value=Password
+text=Edit Account;value=Edit Account
+text=Address Books;value=Address Books
+text=Order History;value=Order History
+text=Transactions;value=Transactions
+text=Select Country;value=Select Country
+text=Select Origin;value=Select Origin
+text=Select Destination;value=Select Destination
+text=Departure Date;value=Departure Date
+text=Return Date;value=Return Date
+text=Price from: Min;value=Price from: Min
+text=Price from: Max;value=Price from: Max

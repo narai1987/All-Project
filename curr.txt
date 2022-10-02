@@ -1,0 +1,1 @@
+SELECT * FROM currencys WHERE id = '4' and  status = '1'

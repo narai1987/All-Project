@@ -1,0 +1,100 @@
+/* Flexible Slide-to-top Accordion Style*/
+.st-accordion {
+	width: 100%;
+	min-width: 270px;
+	margin: 0 auto;
+	z-index:1;
+}
+.st-accordion ul li {
+	height: 38px;
+	border-bottom: solid 1px #e9e9e9;
+	border-top: 1px solid #fff;
+	overflow: hidden;
+	position:relative;
+}
+.st-accordion ul li:first-child {
+	border-top: none;
+}
+.st-accordion ul li > a {
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #f4f4f4 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f4f4f4)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%, #f4f4f4 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%, #f4f4f4 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%, #f4f4f4 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%, #f4f4f4 100%); /* W3C */
+ 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f4f4', GradientType=0 ); /* IE6-9 */
+	border-bottom: solid 1px #e9e9e9;
+	border-top: solid 1px #e9e9e9;
+	font-family: ptsans;
+	font-size: 13px;
+	display: block;
+	position: relative;
+	line-height: 38px;
+	padding-left: 15px;
+	text-decoration: none;
+	color: #3a3f43;
+	outline: none;
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+	text-transform: uppercase;
+	z-index:1;
+	position:relative;
+}
+.st-accordion ul li > a span {
+	background: transparent url(../images/down.png) no-repeat center center;
+	text-indent: -9000px;
+	width: 26px;
+	height: 14px;
+	position: absolute;
+	top: 50%;
+	right: -26px;
+	*right: 10px;
+	margin-top: -7px;
+	*margin-top: -16px;
+	opacity: 0;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.st-accordion ul li > a:hover {
+	color: #3a3f43;
+}
+.st-accordion ul li > a:hover span {
+	opacity: 1;
+	right: 10px;
+}
+.st-accordion ul li.st-open > a {
+	color: #3a3f43;
+}
+.st-accordion ul li.st-open > a span {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+	right: 10px;
+	opacity: 1;
+	*background: transparent url(../images/up.png) no-repeat center center;
+}
+.st-content {
+	padding: 18px;
+}
+.st-content table h3
+{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+}
+.st-content p {
+	font-size: 11px;
+	font-family: Tahoma, Geneva, sans-serif;
+	line-height: 18px;
+}
+@media screen and (max-width: 320px) {
+.st-accordion ul li > a {
+	font-size: 36px;
+}
+}

@@ -1,0 +1,12 @@
+http://www.c-sharpcorner.com/UploadFile/51e7af/basic-interview-questions-for-manual-testing/
+http://www.tutorialspoint.com/software_testing_dictionary/agile_testing.htm
+
+http://www.tutorialspoint.com/sql/sql_tutorial.pdf
+
+http://www.slideshare.net/girichinna27/selenium-interview-questions
+http://www.seleniumtests.com/p/selenium-interview-questions.html
+http://laxmiroy.blogspot.in/2011/09/selenium-rc-latest-interview-questions.html
+http://online-selenium-trainings.webs.com/apps/blog/entries/show/7574647-selenium-interview-questions
+http://www.studyselenium.com/2013/12/100-selenium-interview-questions.html
+
+http://en.wikipedia.org/wiki/List_of_highest-grossing_Bollywood_films

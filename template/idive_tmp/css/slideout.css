@@ -1,0 +1,97 @@
+
+.q_container {
+    min-width:212px;
+	float:left;
+	position:absolute;
+	z-index:100;
+}
+.question {
+    border-radius: 5px 5px 0px 0px;
+    width:auto;
+    height:40px;
+    background-color: #363636;
+	padding-left:30px;
+	color:#fff;
+	font-family:ptsans;
+	font-family:Tahoma, Geneva, sans-serif\0/; /*for ie8 only*/
+	*font-family:Tahoma, Geneva, sans-serif;   /*for ie7 only*/
+	font-size:13px;
+	text-decoration:none;
+	background:url(../images/quick_cart.png) no-repeat left center;
+	float:left;
+	line-height:40px;
+}
+.quick_price
+{
+	color:#fbc012;
+}
+.answer 
+{
+    width:auto;
+    background:#f9f9f9 !important;
+	border:solid 1px #e1e1e1;
+    display:none;
+    background-color: blue;
+    overflow: hidden;
+	float:left;
+	padding:4px;
+}
+.answer table tr
+{
+	border-bottom:solid 1px #e6e6e6;
+}
+.answer table td
+{
+	font-family:ptsans;
+	font-family:Tahoma, Geneva, sans-serif\0/; /*for ie8 only*/
+	*font-family:Tahoma, Geneva, sans-serif;   /*for ie7 only*/
+	font-size:12px;
+	padding:4px;
+}
+.q_cart_heading
+{
+	color:#363636;
+	font-family:ptsans;
+	font-family:Tahoma, Geneva, sans-serif\0/; /*for ie8 only*/
+	*font-family:Tahoma, Geneva, sans-serif;   /*for ie7 only*/
+	font-size:13px;
+}
+.q_qty
+{
+	width:30px;
+}
+.prod_q_heading
+{
+	font-weight:bold;
+	min-width:100px;
+}
+.prod_q_price
+{
+	color:#ff5a00;
+}
+.bot_border
+{
+	background:url(../images/q_border.png) repeat-x left center;
+}
+a.q_checkout_btn
+{
+	background:#646464;
+	padding:5px 20px;
+	color:#fff;
+	font-size:12px;
+	font-weight:400;
+	text-decoration:none;
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+a.q_viewcart_btn
+{
+	background:#ffc514;
+	padding:5px 20px;
+	color:#fff;
+	font-size:12px;
+	font-weigth:400;
+	text-decoration:none;
+	text-transform:uppercase;
+	margin-bottom:10px;
+}

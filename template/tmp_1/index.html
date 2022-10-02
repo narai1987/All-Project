@@ -1,0 +1,1105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Service Provider</title>
+<link rel="stylesheet" href="styles/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="styles/menu.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="styles/slide.css" type="text/css" media="screen" />
+ <!-- login Slider -->
+	<script src="jquery/login/jquery-1.3.2.min.js" type="text/javascript"></script>
+	<script src="jquery/login/slide.js" type="text/javascript"></script>
+ <!-- login Slider -->
+ 
+ <!--provider Slider-->
+ <script type="text/javascript" src="jquery/pro_slider/jquery.min.js"></script>
+<script type="text/javascript" src="jquery/pro_slider/stepcarousel.js"></script>
+<link href="jquery/pro_slider/tech_gal.css" rel="stylesheet" type="text/css" />
+ <script type="text/javascript">
+
+stepcarousel.setup({
+	galleryid: 'mygallery', //id of carousel DIV
+	beltclass: 'belt', //class of inner "belt" DIV containing all the panel DIVs
+	panelclass: 'panel', //class of panel DIVs each holding content
+	autostep: {enable:true, moveby:1, pause:2000},
+	panelbehavior: {speed:500, wraparound:true, wrapbehavior:'slide', persist:true},
+	defaultbuttons: {enable: true, moveby: 1, leftnav: ['jquery/pro_slider/back.png', 375, -35], rightnav: ['jquery/pro_slider/next.png', -20, -35]},
+	statusvars: ['statusA', 'statusB', 'statusC'], //register 3 variables that contain current panel (start), current panel (last), and total panels
+	contenttype: ['inline'] //content setting ['inline'] or ['ajax', 'path_to_external_file']
+})
+
+</script>
+ <!--provider Slider-->
+ <!--popup--->
+ <link rel="stylesheet" href="jquery/popup/popup.css" type="text/css" />
+	<!--<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>-->
+	<script type="text/javascript" src="jquery/popup/popup.js"></script>
+<!--popup Close--->
+
+<!--popup tab--->
+<link rel="stylesheet" href="jquery/loginTab/css/style.css">
+   <!-- <script src="jquery/loginTab/js/jquery.min.js"></script>--->
+    <script src="jquery/loginTab/js/organictabs.jquery.js"></script>
+    <script>
+        $(function() {
+    
+            $("#example-one").organicTabs();
+            
+            $("#example-two").organicTabs({
+                "speed": 200
+            });
+    
+        });
+    </script>
+        
+<!--popup tab Close--->
+
+</head>
+
+<body>
+<!--top login-->
+<div id="toppanel">
+	<div id="panel">
+		<div class="content clearfix" >
+			<div class="left"  style="padding-top:15px;">
+          
+				<div class="select"><select>
+                <option>User Type</option>
+                <option>Provider</option>
+                <option>User</option>
+                </select>
+                </div>
+               
+			</div>
+			<div class="left">
+				<!-- Login Form -->
+				<form class="clearfix" action="#" method="post">
+					
+                    <input type="text" class="inputbox" Placeholder="Email Address" />
+                   
+        			<div class="clear"></div>
+					<!--<input type="submit" name="submit" value="Login" class="bt_login" />-->
+					<a class="lost-pwd" href="#">Register Now !</a>
+				</form>
+			</div>
+			<div class="left">			
+				<!-- Register Form -->
+				<form action="#" method="post">
+					  <input type="text" class="inputbox" Placeholder="Password" />
+                      
+                      <div class="clear"></div>
+					<!--<input type="submit" name="submit" value="Login" class="bt_login" />-->
+					<a class="lost-pwd" href="#">Lost your password?</a>
+				</form>
+			</div>
+            <div class="left right">			
+				<!-- Register Form -->
+				<form action="#" method="post">
+					<input type="submit" name="submit" value="Register" class="bt_register" />
+				</form>
+			</div>
+            
+            
+            
+		</div>
+</div> <!-- /login -->	
+
+	<!-- The tab on top -->	
+	<div class="tab">
+		<ul class="login">
+			<li class="left">&nbsp;</li>
+			<li>Call us toll-free on 1-888-699-8911</li>
+			<li class="sep">|</li>
+            <li><div class="social">
+            <a href="#"><img src="images/fb.png" alt="Facebook" /></a>
+            <a href="#"><img src="images/tw.png" alt="Twitter" /></a>
+            <a href="#"><img src="images/in.png" alt="LinkedIn" /></a>
+             </div></li>
+             
+             <li class="sep">|</li>
+			<li id="toggle">
+				<a id="open" class="open" href="#"><strong>Log In</strong></a>
+				<a id="close" style="display: none;" class="close" href="#"><strong>Hide &nbsp;&nbsp;</strong></a>			
+			</li>
+			<li class="right">&nbsp;</li>
+          <li class="shop_bag"><div class="left"><a href="#"><img src="images/bag.png" alt="bag" /></a></div> 
+          <div class="bag_list left"><a href="#" class="bag_item">23</a></div> </li>
+        
+		</ul> 
+	</div> <!-- / top -->
+	
+</div>
+<!--top login Close-->
+<!--Header-->
+<div id="p_header">
+<div id="header">
+<div class="logo"></div>
+<div class="welcome_user right"><span><a href="#">Welcome Guest!</a></span>  <a href="#">Logout</a></div>
+</div>
+</div>
+<!--Header Close-->
+<!--Menu-->
+<div id="menu_p">
+<div id="menu">
+<div class="menu">
+<div class="btn_part left">
+<ul>
+<li style="padding-top:7px;"><a href="#"><img src="images/home.png" alt="home" /></a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Providers</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+
+
+</div>
+<div class="_search right">
+<div class="s_box left"><input type="text" placeholder="Search your Terms" class="search_text" /></div>
+<div class="left"><a href="#"><img src="images/search.png" alt="search" class="search_but" /></a></div>
+</div>
+
+</div>
+</div>
+</div>
+<!--Menu Close-->
+<!--Banner-->
+<div id="banner">
+<div class="top_search">
+<h2>Find Providers</h2>
+<div class="box_s">
+<div class="ddl_search"><select>
+<option>Select Category</option>
+<option>Select Category</option>
+<option>Select Category</option>
+</select></div>
+<div class="ddl_search"><select>
+<option>Select City</option>
+<option>Select City</option>
+<option>Select City</option>
+</select></div><br />
+
+<input type="text" class="location_box" placeholder="Select Location" />
+
+<p align="center"><input type="button" class="findnow" /></p>
+</div>
+
+</div>
+<div class="banner"></div>
+</div>
+<!--Banner Close-->
+<!--Container-->
+<div id="container">
+<div class="content">
+<!--news panel-->
+<div class="left_box left">
+<h3><span class="news_bg">What's New</span></h3>
+<div class="newsbox">
+<div class="news">
+<div class="n_color_l purple left">
+<p>20<br />
+<span>NOV</span>
+</p>
+</div>
+<div class="news_text left">
+<p class="n_heading">News Heading</p>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+
+</div>
+
+</div>
+<div class="news">
+<div class="n_color_l green left">
+<p>20<br />
+<span>NOV</span>
+</p>
+</div>
+<div class="news_text left">
+<p class="n_heading2">News Heading</p>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+
+</div>
+
+</div>
+<div class="news">
+<div class="n_color_l orange left">
+<p>20<br />
+<span>NOV</span>
+</p>
+</div>
+<div class="news_text left">
+<p class="n_heading3">News Heading</p>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+
+</div>
+
+</div>
+
+<p align="right" style="padding-top:5px;">
+<a href="#" class="anch"><strong>Read More...</strong></a></p>
+
+</div>
+
+
+
+</div>
+<!--news panel Close-->
+
+<!--Service Provider panel-->
+<div class="middle_box left">
+<h3>Top Service Providers</h3>
+<div class="providerbox">
+
+<div id="mygallery" class="stepcarousel">
+<div class="belt">
+
+<div class="panel">
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+</div>
+
+
+
+<div class="panel">
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+</div>
+
+<div class="panel">
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+</div>
+
+<div class="panel">
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+</div>
+
+<div class="panel">
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+<div class="tech_icon">
+<p>
+<strong>Name :</strong> Provider Name<br />
+<strong>Rating :</strong> 
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/yellow_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<a><img src="images/gray_star.png" alt="rating" /></a>
+<br />
+<strong>No of Services :</strong> 20<br />
+</p>
+<p align="right"><a href="#" >View More...</a></p>
+</div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<!--<p>
+<b>Current Panel:</b> <span id="statusA"></span> <b style="margin-left: 30px">Total Panels:</b> <span id="statusC"></span>
+</p>
+
+<p id="mygallery-paginate" style="width: 250px; text-align:center">
+<img src="jquery/pro_slider/opencircle.png" data-over="jquery/pro_slider/graycircle.png" data-select="jquery/pro_slider/graycircle.png" data-moveby="1" />
+</p>
+
+<p>
+<a href="javascript:stepcarousel.stepBy('mygallery', -1)">Back 1 Panel</a> <a href="javascript:stepcarousel.stepBy('mygallery', 1)" style="margin-left: 80px">Forward 1 Panel</a> <br />
+
+<a href="javascript:stepcarousel.stepTo('mygallery', 1)">To 1st Panel</a> <a href="javascript:stepcarousel.stepBy('mygallery', 2)" style="margin-left: 80px">Forward 2 Panels</a>
+</p>
+-->
+
+
+
+
+</div>
+<!--Service Provider panel Close-->
+
+
+<!--/right panel/-->
+<div class="right_box right">
+<div class="add"><a href="#" class="button"><img src="images/signup.png" alt="signup" /></a></div>
+<div class="newslatter"><h6>Subscribe to our NewsLetter</h6>
+<div class="subscribe">Subscribe to our newsletter and get
+exclusive deals you won't find anywhere
+<div class="email">
+<input type="text" class="news_leterbox" placeholder="Email Address" /> <button class="subscribe_but">Subscribe</button>
+</div>
+<span><a href="#"><strong>x</strong></a> &nbsp;Please enter a valid E-mail Address</span><br />
+
+<span><em><a href="#"><strong></strong></a> Please enter a valid E-mail Address</em></span>
+
+</div>
+
+</div>
+
+</div>
+<!--/right panel Close/-->
+
+
+<!-- google Add -->
+<div class="gog_add"><a href="#"><img src="images/google.png" alt="google" /></a></div>
+<!-- google Add -->
+
+</div>
+
+ <!--PopUp Starts-->
+			<div class="popupContent">
+							<a class="popupClose"><img src="jquery/popup/close.png" alt="close" /></a>
+							
+							 <div id="example-one">
+        			
+        	<ul class="nav">
+                <li class="nav-one"><a href="#featured" class="current">Provider Registration</a></li>
+                <li class="nav-two"><a href="#core">User Registration</a></li>
+                <!--<li class="nav-three"><a href="#jquerytuts">jQuery</a></li>
+                <li class="nav-four last"><a href="#classics">Classics</a></li>-->
+            </ul>
+        	
+        	<div class="list-wrap">
+        	<ul id="featured">
+        			<li>
+            <fieldset class="fieldset" >
+                 <legend>Personal Detail</legend>
+                 <table width="98%" cellpadding="0" cellspacing="2" class="tab_regis">
+                 <tr>
+                 <td align="right" width="18%"><strong><em class="star_red">*</em> First Name :</strong></td>
+                 <td><input type="text" class="reg_txt" />
+                
+                 </td>
+                 <td align="right" width="18%"><strong><em class="star_red">*</em> Last Name :</strong></td>
+                 <td><input type="text" class="reg_txt" /></td>
+                 </tr>
+                 
+                 <tr>
+                 <td align="right"><strong><em class="star_red">*</em> Email-ID:</strong>
+                  
+                 </td>
+                 <td><input type="text" class="reg_txt" />
+                 </td>
+                 <td align="right"><strong><em class="star_red">*</em> Gender :</strong></td>
+                 <td><input type="radio"  /> Male <input type="radio"  /> Female</td>
+                 </tr>
+                 <tr>
+                 <td align="right"></td>
+                 <td><span class="font">(It will consider as your User ID)</span>
+                 </td>
+                 <td align="right"></td>
+                 <td></td>
+                 </tr>
+                 
+                 </table>
+                 </fieldset>
+                 
+                 <fieldset class="fieldset" >
+                 <legend>Business Detail</legend>
+                 <table width="98%" cellpadding="0" cellspacing="2" class="tab_regis">
+                 <tr>
+                 <td align="right" width="18%"><strong> Business Name :</strong></td>
+                 <td><input type="text" class="reg_txt" /></td>
+                 <td align="right" width="18%"><strong><em class="star_red">*</em> Status :</strong></td>
+                 <td><input type="text" class="reg_txt" /></td>
+                 </tr>
+                 
+                 <tr>
+                 <td align="right" ><strong>Description:</strong></td>
+                 <td colspan="2"><textarea rows="3" cols="50" class="regis_area"></textarea></td>
+                 
+                 </tr>
+                 
+                 </table>
+                 </fieldset>
+                 
+                 <fieldset class="fieldset" >
+                 <legend>Contact Detail</legend>
+                 <table width="98%" cellpadding="0" cellspacing="2" class="tab_regis">
+                 <tr>
+                 <td align="right" width="18%"><strong><em class="star_red">*</em> Country :</strong></td>
+                 <td><input type="text" class="reg_txt" /></td>
+                 <td align="right" width="18%"><strong>Phone No :</strong></td>
+                 <td><input type="text" class="reg_txt" /></td>
+                 </tr>
+                 
+                 <tr>
+                 <td align="right"><strong><em class="star_red">*</em>State:</strong></td>
+                 <td><input type="text" class="reg_txt" /></td>
+                 <td align="right"><strong>Mobile No :</strong></td>
+                 <td><input type="text" class="reg_txt" /></td>
+                 </tr>
+                 
+                 <tr>
+                 <td align="right"><strong><em class="star_red">*</em> City:</strong></td>
+                 <td><input type="text" class="reg_txt" /></td>
+                 <td align="right"><strong>FAX No :</strong></td>
+                 <td><input type="text" class="reg_txt" /></td>
+                 </tr>
+                 
+                 <tr>
+                 <td align="right"><strong>Address:</strong></td>
+                 <td colspan="2"><textarea rows="3" cols="50" class="regis_area"></textarea></td>
+                 
+                 </tr>
+                 
+                 </table>
+                 </fieldset>
+                 <br />
+                 <p class="font"><em class="star_red">*</em> indicates mandatory fields 
+                 <button class="submit right"><strong>&nbsp; Reset </strong></button> 
+                 <button class="submit right"><strong>Submit</strong></button></p>
+                 
+                 </li>
+                 </ul>
+                 
+                 
+            
+            <!--<ul id="featured">
+        			<li>
+        		<a href="http://css-tricks.com/perfect-full-page-background-image/">Full Page Background Images</a></li>
+        			<li><a href="http://css-tricks.com/designing-for-wordpress-complete-series-downloads/">Designing for WordPress</a></li>
+        			<li><a href="http://css-tricks.com/build-your-own-social-home/">Build Your Own Social Home!</a></li>
+        			<li><a href="http://css-tricks.com/absolute-positioning-inside-relative-positioning/">Absolute Positioning Inside Relative Positioning</a></li>
+        			<li><a href="http://css-tricks.com/ie-css-bugs-thatll-get-you-every-time/">IE CSS Bugs That'll Get You Every Time</a></li>
+        			<li><a href="http://css-tricks.com/404-best-practices/">404 Best Practices</a></li>
+        			<li><a href="http://css-tricks.com/date-display-with-sprites/">Date Display with Sprites</a></li>
+        		</ul>-->
+        		 
+        		 <ul id="core" class="hide">
+                    <li><ul id="featured">
+        			<li>
+            <fieldset class="fieldset" >
+                 <legend>Personal Detail</legend>
+                 <table width="98%" cellpadding="0" cellspacing="2" class="tab_regis">
+                 <tr>
+                 <td align="right" width="18%"><strong><em class="star_red">*</em> First Name :</strong></td>
+                 <td><input type="text" class="reg_txt" />
+                
+                 </td>
+                 <td align="right" width="18%"><strong><em class="star_red">*</em> Last Name :</strong></td>
+                 <td><input type="text" class="reg_txt" /></td>
+                 </tr>
+                 
+                 <tr>
+                 <td align="right"><strong><em class="star_red">*</em> Email-ID:</strong>
+                  
+                 </td>
+                 <td><input type="text" class="reg_txt" />
+                 </td>
+                 <td align="right"><strong><em class="star_red">*</em> Gender :</strong></td>
+                 <td><input type="radio"  /> Male <input type="radio"  /> Female</td>
+                 </tr>
+                 <tr>
+                 <td align="right"></td>
+                 <td><span class="font">(It will consider as your User ID)</span>
+                 </td>
+                 <td align="right"></td>
+                 <td></td>
+                 </tr>
+                 
+                 </table>
+                 </fieldset>
+                 
+                 <fieldset class="fieldset" >
+                 <legend>Business Detail</legend>
+                 <table width="98%" cellpadding="0" cellspacing="2" class="tab_regis">
+                 <tr>
+                 <td align="right" width="18%"><strong> Business Name :</strong></td>
+                 <td><input type="text" class="reg_txt" /></td>
+                 <td align="right" width="18%"><strong><em class="star_red">*</em> Status :</strong></td>
+                 <td><input type="text" class="reg_txt" /></td>
+                 </tr>
+                 
+                 <tr>
+                 <td align="right" ><strong>Description:</strong></td>
+                 <td colspan="3"><textarea rows="3" cols="50" class="regis_area"></textarea></td>
+                 
+                 </tr>
+                 
+                 </table>
+                 </fieldset>
+                 
+                 <fieldset class="fieldset" >
+                 <legend>Contact Detail</legend>
+                 <table width="98%" cellpadding="0" cellspacing="2" class="tab_regis">
+                 <tr>
+                 <td align="right" width="18%"><strong><em class="star_red">*</em> Country :</strong></td>
+                 <td><input type="text" class="reg_txt" /></td>
+                 <td align="right" width="18%"><strong>Phone No :</strong></td>
+                 <td><input type="text" class="reg_txt" /></td>
+                 </tr>
+                 
+                 <tr>
+                 <td align="right"><strong><em class="star_red">*</em>State:</strong></td>
+                 <td><input type="text" class="reg_txt" /></td>
+                 <td align="right"><strong>Mobile No :</strong></td>
+                 <td><input type="text" class="reg_txt" /></td>
+                 </tr>
+                 
+                 <tr>
+                 <td align="right"><strong><em class="star_red">*</em> City:</strong></td>
+                 <td><input type="text" class="reg_txt" /></td>
+                 <td align="right"><strong>FAX No :</strong></td>
+                 <td><input type="text" class="reg_txt" /></td>
+                 </tr>
+                 
+                 <tr>
+                 <td align="right"><strong>Address:</strong></td>
+                 <td colspan="3"><textarea rows="3" cols="50" class="regis_area"></textarea></td>
+                 
+                 </tr>
+                 
+                 </table>
+                 </fieldset>
+                 <br />
+                 <p class="font"><em class="star_red">*</em> indicates mandatory fields 
+                 <button class="submit right"><strong>&nbsp; Reset </strong></button> 
+                 <button class="submit right"><strong>Submit</strong></button></p>
+                 
+                 </li>
+                 </ul></li>
+                   
+        		 </ul>
+        		 
+        		 <!--<ul id="jquerytuts" class="hide">
+        		    <li><a href="http://css-tricks.com/anythingslider-jquery-plugin/">Anything Slider jQuery Plugin</a></li>
+        		    <li><a href="http://css-tricks.com/moving-boxes/">Moving Boxes</a></li>
+        			<li><a href="http://css-tricks.com/simple-jquery-dropdowns/">Simple jQuery Dropdowns</a></li>
+        			<li><a href="http://css-tricks.com/creating-a-slick-auto-playing-featured-content-slider/">Featured Content Slider</a></li>
+        			<li><a href="http://css-tricks.com/startstop-slider/">Start/Stop Slider</a></li>
+        			<li><a href="http://css-tricks.com/banner-code-displayer-thing/">Banner Code Displayer Thing</a></li>
+        			<li><a href="http://css-tricks.com/highlight-certain-number-of-characters/">Highlight Certain Number of Characters</a></li>
+        			<li><a href="http://css-tricks.com/auto-moving-parallax-background/">Auto-Moving Parallax Background</a></li>
+        		 </ul>
+        		 
+        		 <ul id="classics" class="hide">
+                    <li><a href="http://css-tricks.com/css-wishlist/">Top Designers CSS Wishlist</a></li>
+                    <li><a href="http://css-tricks.com/what-beautiful-html-code-looks-like/">What Beautiful HTML Code Looks Like</a></li>
+                    <li><a href="http://css-tricks.com/easily-password-protect-a-website-or-subdirectory/">Easily Password Protect a Website or Subdirectory</a></li>
+                    <li><a href="http://css-tricks.com/how-to-create-an-ie-only-stylesheet/">IE-Only Stylesheets</a></li>
+                    <li><a href="http://css-tricks.com/ecommerce-considerations/">eCommerce Considerations</a></li>
+                    <li><a href="http://css-tricks.com/php-for-beginners-building-your-first-simple-cms/">PHP: Build Your First CMS</a></li>
+        		 </ul>-->
+                 
+                 
+                 
+        		 
+        	 </div> <!-- END List Wrap -->
+         
+         </div> <!-- END Organic Tabs (Example One) -->
+						</div>
+						<div class="backgroundPopup"></div>			
+<!--PopUp Close-->
+
+
+</div>
+<!--Container Close-->
+
+<!--web2.0 start-->
+  <div id="p_web">
+<div id="web">
+<div class="f_container">
+<div class="f_boxes">
+<div class="f_head"><p>What's people Says <em></em></p></div>
+
+<table width="100%" style="margin-top:10px;">
+<tr>
+<td width="40%" valign="top">
+<a href="#" ><img src="images/testi_icon.png" alt="icon" class="test_iconimg" /></a><br />
+
+<a href="#" class="test_icon1">Michael
+Robert</a>
+</td>
+<td class="test_desc1" valign="top" >
+<p>
+Lorem Ipsum doler
+sit amet. Lorem Ipsum doler sit amet.Lorem Ipsum doler sit amet. Lorem Ipsum doler sit amet. Lorem Ipsumdolersit amet.
+</p>
+
+</td>
+
+</tr>
+
+
+</table>
+
+
+
+</div>
+<div class="seperator"></div>
+<div class="f_boxes">
+<div class="f_head">
+
+
+
+<p>Address <em></em></p></div>
+<p><span>First Floor, Y-Square, Opposite 
+S.K. Motors, Khurram Nagar,
+Lucknow - 226022, Uttar Pradesh,
+INDIA </span></p>
+<p><span><label for="Phone" class="lab_for"><strong>Phone </strong>:</label> <label for="number">+91 - 0522 - 4081436</label></span><br />
+
+<span><label for="Email" class="lab_for"><strong>Email &nbsp; </strong>:</label> <label for="id">contact@infranix.com</label></span><br />
+
+<span><label for="skype" class="lab_for"><strong>Skype </strong>:</label> <label for="sky">tauseef.2sidd</label></span></p>
+
+</div>
+
+
+<div class="seperator"></div>
+<div class="f_boxes">
+<div class="f_head">
+
+
+
+<p>Other Links <em></em></p></div>
+<p><a href="../index.html">Home </a> </p>
+<p><a href="../product.html#portfolio">Products</a></p>
+<p><a href="#">Partners</a></p>
+<p><a href="../career.html#career">Career </a> </p>
+<p><a href="../contact.html#contact">Contact Us</a> </p>
+
+
+
+
+</div>
+<div class="seperator"></div>
+
+<div class="f_boxes">
+<div class="f_head"><p>Track our Location <em></em></p></div>
+<iframe width="189" height="131" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=INFRANIX+IT+Solutions,+Lucknow,+Uttar+Pradesh&amp;aq=0&amp;oq=infranix&amp;sll=26.836828,80.950613&amp;sspn=0.373127,0.441513&amp;ie=UTF8&amp;hq=INFRANIX+IT+Solutions,&amp;hnear=Lucknow,+Uttar+Pradesh&amp;ll=26.888722,80.967328&amp;spn=0.093223,0.110378&amp;t=m&amp;z=13&amp;iwloc=A&amp;cid=1497745135325076285&amp;output=embed" style="margin-top:10px;"></iframe><br />
+
+</div>
+
+</div>
+</div>
+</div>
+  
+    <!--web2.0 close-->
+
+
+<!--footer starts-->
+<div id="footer_p">
+<div id="footer">
+<div class="f_menu left_drag">
+<p>
+© Copyright 2012, Service Provider. All rights reserved</a> 
+</p>
+</div>
+
+</div>
+
+
+</div>
+</div>
+<!--footer close-->
+
+
+
+</body>
+</html>

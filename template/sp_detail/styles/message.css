@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* varification CSS*/
+.darkbase_bg{
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	background-color:#000;
+	background:url(../images/bcpng.png) repeat;
+	z-index:100;
+}
+.alert_yellow ,.alert_green,.alert_pink,.alert_pink2,.alert_blue{
+	width:300px !important;
+	margin:0 auto;
+	margin-top:250px;
+	height:auto;
+	padding:10px;
+	background:#ffffff;
+	outline: none;
+	/*overflow: hidden;*/
+	box-shadow:inset 0 0 2px #B99106;
+	-webkit-box-shadow:inset 0 0 5px #B99106;
+	-moz-box-shadow:inset 0 0 5px #B99106;
+	
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	
+}
+.alert_yellow div.pop_text {
+	background:url(../images/icon/warning_icon.png) no-repeat left 25%;	
+}
+.alert_green div.pop_text {
+	background:url(../images/icon/success_icon.png) no-repeat left 25%;	
+}
+.alert_pink div.pop_text {
+	background:url(../images/icon/error_msg.png) no-repeat left 25%;	
+}
+.alert_blue div.pop_text {
+	background:url(../images/icon/notice_icon.png) no-repeat left 25%;	
+}
+.alert_pink2 div.pop_text {
+	background:url(../images/icon/error_icon2.png) no-repeat left 25%;	
+}
+.alert_yellow div.pop_text,.alert_green div.pop_text,.alert_pink div.pop_text,.alert_pink2 div.pop_text,.alert_blue div.pop_text
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12pt;
+	color:#555555;
+	font-weight:normal;
+	line-height:20px;
+	padding-bottom:10px;
+	padding-left:40px;
+	clear:both;	
+}
+.alert_yellow div.pop_text h4,.alert_green div.pop_text h4,.alert_pink div.pop_text h4,.alert_pink2 div.pop_text h4,.alert_blue div.pop_text h4
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12pt;
+	color:#333333;
+	line-height:21px;
+	background:none !important;
+	padding-bottom:7px;
+}
+.alert_yellow div.pop_text p,.alert_green div.pop_text p,.alert_pink div.pop_text p,.alert_pink2 div.pop_text p,.alert_blue div.pop_text p
+{
+	font-size:9pt;
+	color:#555555;
+	line-height:20px;
+}
+.pop_close
+{
+	width:24px;
+	height:24px;
+	float:right;
+	margin-right:-20px;
+	margin-top:-20px;
+	cursor:pointer !important;
+}
+
+
+
+
+
+
+
+
+
+/* varification CSS end*/

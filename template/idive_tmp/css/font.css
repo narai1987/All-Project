@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face
+{
+	 font-family: 'ptsans';
+	 src: url('../font/PTS55F.ttf'),
+     url('../font/PTS55F.eot?#iefix')format('embedded-opentype'),
+	 url('fonts/PTS55F.woff') format('woff'),
+         url('fonts/PTS55F.ttf') format('truetype'),
+         url('fonts/PTS55F.svg#PTS55F') format('svg'); /* IE9 */
+}
+@font-face
+{
+	 font-family: 'jura';
+	 src: url('../font/Jura-Regular.ttf'),
+     url('../font/Jura-Regular.eot?#iefix')format('embedded-opentype'); /* IE9 */
+}
+
+
+@font-face
+{
+	 font-family: 'bodoni';
+	 src: url(../font/BodoniFLF-Italic.ttf) format('truetype');/*
+     url('../font/BodoniFLF-Italic.eot?#iefix')format('embedded-opentype'); *//* IE9 */
+}
+@font-face
+{
+	 font-family: 'oswald';
+	 src: url(../font/Oswald-Light.ttf),
+     url('../font/Oswald-Light.eot?#iefix')format('embedded-opentype'); /* IE9 */
+}

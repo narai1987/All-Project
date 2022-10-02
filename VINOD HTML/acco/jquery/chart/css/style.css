@@ -1,0 +1,172 @@
+/* CSS import */
+
+/*@import url('icons.css'); Icons */
+@import url('plugins/jquery.qtip.min.css'); /* Qtip */
+/*@import url('plugins/wave-calendar.css');  Calendar */
+/*@import url('plugins/jquery.cleditor.css');  Cleditor */
+/* @import url('plugins/dynamic_table.css'); Dynamic table styling */
+/*@import url('plugins/ui_styling.css');  UI styling */
+/*@import url('plugins/breadcrumbs.css');  Breadcrumbs plugin */
+/* @import url('plugins/colorpicker.css'); Colorpicker plugin */
+/*@import url('plugins/chosen.css');  Chosen select plugin */
+/*@import url('plugins/jquery.tagsinput.css');  Tags input plugin */
+/*@import url('plugins/tipsy.css');  Tipsy plugin */
+/*@import url('plugins/jqueryFileTree.css');  FileTree plugin */
+/*@import url('plugins/prettyPhoto.css');  prettyPhoto plugin */
+/*@import url('plugins/jquery.ibutton.css');  Jquery iButton */
+/*@import url('plugins/lockscreen.css');  Lockscreen */
+/*@import url('../js/google-code-prettify/prettify.css');  googlePretty */
+
+/* ======= Content ======= */
+
+
+
+
+
+
+
+
+/*.widget-container {
+	margin: 30px 0 0 0;
+}*/
+
+.widget {
+	-webkit-border-radius: 5px 5px 0px 0px ;
+	-moz-border-radius:5px 5px 0px 0px ;
+	border-radius:5px 5px 0px 0px ;
+	border: 1px solid #c4e5ff;
+	background: #fff;
+	margin-bottom:15px;
+	margin-left:5px;
+}
+
+.widget-heading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	font-weight: normal;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 0 0 7px;
+	margin: 0;
+	color: #58575b;
+	border-bottom: 1px solid #c4e5ff;
+	background:#d3f4ff;
+	/* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d3f4ff), to(#fafdff));
+  
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #d3f4ff, #fafdff);
+  
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #d3f4ff, #fafdff);
+  
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #d3f4ff, #fafdff);
+  
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #d3f4ff, #fafdff);
+  
+  -moz-box-shadow:    inset 0 1px 2px #ffffff;
+   -webkit-box-shadow: inset 0 1px 2px #ffffff;
+   box-shadow:         inset 0 1px 2px #ffffff;
+	
+	/* CSS3 */
+	 -webkit-border-radius: 5px 5px 0px 0px ;
+	-moz-border-radius:5px 5px 0px 0px ;
+	border-radius:5px 5px 0px 0px ;
+}
+.widget-heading div.chart_icon{
+	background: url(chart.png) no-repeat left center;
+	line-height: 35px;
+	display:inline-block;
+	padding-left:40px;
+}
+.widget-heading .nav-pills {
+	height: 40px;
+	float: right;
+	padding: 0 !important;
+	margin: 0 !important;
+	position: relative;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+/*.widget-heading .nav-pills > li {
+	height: 40px;
+	width: 40px;
+	border-left: 1px solid #cccccc;
+	float: left;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.widget-heading .nav-pills > li > a {
+	width: 40px;
+	height: 40px;
+	background: rgb(246,246,246);
+	background: -moz-linear-gradient(top, rgb(246,246,246) 0%, rgb(233,233,233) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(246,246,246)), color-stop(100%,rgb(233,233,233)));
+	background: -webkit-linear-gradient(top, rgb(246,246,246) 0%,rgb(233,233,233) 100%);
+	background: -o-linear-gradient(top, rgb(246,246,246) 0%,rgb(233,233,233) 100%);
+	background: -ms-linear-gradient(top, rgb(246,246,246) 0%,rgb(233,233,233) 100%);
+	background: linear-gradient(to bottom, rgb(246,246,246) 0%,rgb(233,233,233) 100%);
+	filter: linear-gradient(to bottom, rgb(246,246,246) 0%,rgb(233,233,233) 100%);
+	-webkit-box-shadow: inset 0 1px 0 #fff;
+	box-shadow: inset 0 1px 0 #fff;
+}
+
+.widget-heading .nav-pills > li > a > i {
+	position: relative;
+	top: 14px;
+	left: 13px;
+	opacity: 0.35;
+	display: block;
+	margin: 0 !important;
+}
+
+.widget-heading .nav-pills > li > a > img {
+	margin: 0 auto 0 auto;
+	display: block;
+	width: 14px;
+	height: 14px;
+	position: relative;
+	top: 14px;
+}
+
+.widget-heading .nav-pills > li > .dropdown-menu {
+	margin: 0 -1px 0 0;
+}*/
+
+.inner-widget {
+	padding: 20px 25px 20px 20px;
+}
+
+.inner-widget-nopadding {
+	padding: 20px 0;
+}
+
+/* Chart */
+
+.legend {
+	font-size: 13px !important;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.legendColorBox {
+	padding: 0 3px 0 12px;
+	height: 2px;
+}
+
+.legendColorBox > div {
+	border: none !important;
+}
+
+.legendColorBox > div > div {
+	border-width: 2px !important;
+	width: 10px !important;
+}
+
+.legend table {
+	margin-top: 13px;
+}
+

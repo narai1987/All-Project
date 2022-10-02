@@ -1,0 +1,252 @@
+msgid  "Click to Deactive"
+msgstr "คลิกที่นี่เพื่อ deactive"
+
+msgid  "Edit"
+msgstr "แก้ไข"
+
+msgid  "News & Announcements"
+msgstr "ข่าวและประกาศ"
+
+msgid  "ADD NEW"
+msgstr "เพิ่มใหม"
+
+msgid  "Phone No"
+msgstr "โทรศัพท์ไม่มี"
+
+msgid  "Confirm Password"
+msgstr "ยืนยันรหัสผ่าน"
+
+msgid  "New Password"
+msgstr "รหัสผ่านตัวใหม่"
+
+msgid  "Old Password"
+msgstr "รหัสผ่านเก่า"
+
+msgid  "Subscribe"
+msgstr "สมัครสมาชิก"
+
+msgid  "Nationality"
+msgstr "สัญชาติ"
+
+msgid  "Mobile No"
+msgstr "ไม่มีมือถือ"
+
+msgid  "City"
+msgstr "เมือง"
+
+msgid  "State"
+msgstr "รัฐ"
+
+msgid  "Gender"
+msgstr "เพศ"
+
+msgid  "DOB"
+msgstr "วันเกิด"
+
+msgid  "Email-ID"
+msgstr "อีเมล์-ID"
+
+msgid  "Last Name"
+msgstr "นามสกุล"
+
+msgid  "First Name"
+msgstr "ชื่อแรก"
+
+msgid  "Contact Detail"
+msgstr "รายละเอียดติดต่อ"
+
+msgid  "Personal Detail"
+msgstr "รายละเอียดส่วนบุคคล"
+
+msgid  "My Profile"
+msgstr "โปรไฟล์ของฉัน"
+
+msgid  "Qr Code"
+msgstr "รหัส QR"
+
+msgid  "Users"
+msgstr "ผู้ใช้งาน"
+
+msgid  "Languages"
+msgstr "ภาษา"
+
+msgid  "Promotions"
+msgstr "โปรโมชั่น"
+
+msgid  "Statistics"
+msgstr "สถิต"
+
+msgid  "Announcements"
+msgstr "ประกาศ"
+
+msgid  "Contacts"
+msgstr "ติดต่อ"
+
+msgid  "Contact"
+msgstr "ติดต่อ"
+
+msgid  "User Detail"
+msgstr "รายละเอียดผู้ใช้"
+
+msgid  "Total Users"
+msgstr "สมาชิกทั้งหมด"
+
+msgid  "Search"
+msgstr "ค้นหา"
+
+msgid  "Rate"
+msgstr "อัตรา"
+
+msgid  "My Office"
+msgstr "Office ของฉัน"
+
+msgid  "Actions"
+msgstr "การปฏิบัติ"
+
+msgid  "Title"
+msgstr "ชื่อเรื่อง"
+
+msgid  "Promotions"
+msgstr "โปรโมชั่น"
+
+msgid  "Show Entries"
+msgstr "แสดงคอมเมนต์"
+
+msgid  "Edit Account"
+msgstr "แก้ไขบัญชี"
+
+msgid  "Change Password"
+msgstr "เปลี่ยนรหัสผ่าน"
+ิ
+msgid  "New Users"
+msgstr "ผู้ใช้งานใหม่"
+
+msgid  "Active Users"
+msgstr "ผู้ใช้งานที่ใช้งานล่าสุด"
+
+msgid  "Deactive Users"
+msgstr "ผู้ใช้ deactive"
+
+msgid  "Mail / Message"
+msgstr "/ จดหมายข้อความ"
+
+msgid  "Total Messages"
+msgstr "ข้อความทั้งหมดม"
+
+msgid  "New Messages"
+msgstr "ข้อความใหม่"
+
+msgid  "ending Messages"
+msgstr "ข้อความที่สิ้นสุด"
+
+msgid  "Notifications"
+msgstr "การแจ้งเตือน"
+
+msgid  "Total Visits"
+msgstr "การเยี่ยมชมทั้งหมด"
+
+msgid  "New Visits"
+msgstr "การเข้าชมใหม่"
+
+msgid  "New Posts"
+msgstr "ตอบกระทู้ใหม่"
+
+msgid  "Report Abuse"
+msgstr "รายงานการใช้ผิดวิธี"
+
+msgid  "Account Settings"
+msgstr "การตั้งค่าบัญชี"
+
+msgid  "Edit Account"
+msgstr "แก้ไขบัญชี"
+
+msgid  "Change Password"
+msgstr "เปลี่ยนรหัสผ่าน"
+
+msgid  "Welcome"
+msgstr "ยินดีต้อนรับ"
+
+msgid  "User ID"
+msgstr "ผู้ใช้ ID"
+
+msgid  "Name"
+msgstr "ชื่อ"
+
+msgid  "Email"
+msgstr "อีเมล์"
+
+msgid  "Country"
+msgstr "ประเทศ"
+
+msgid  "Contact Us"
+msgstr "ติดต่อเรา"
+
+msgid  "About Us"
+msgstr "เกี่ยวกับเรา"
+
+msgid  "Articles"
+msgstr "บทความ"
+
+msgid  "News Letters"
+msgstr "จดหมายข่าว"
+
+msgid  "Templates"
+msgstr "แม่แบบ"
+
+msgid  "Iframes"
+msgstr "iframes"
+
+msgid  "Subject"
+msgstr "เรื่อง"
+
+msgid  "Design for"
+msgstr "ที่ออกแบบมาสำหรับ"
+
+msgid  "Quick Links"
+msgstr "ลิงค์ที่ใช้บ่อย"
+
+msgid  "Preview"
+msgstr "แสดงตัวอย่าง"
+
+msgid  "Mobile"
+msgstr "โทรศัพท์มือถือ"
+
+msgid  "Phone"
+msgstr "โทรศัพท์"
+
+msgid  "Thumb Image"
+msgstr "ภาพที่นิ้วหัวแม่มือ"
+
+msgid  "Image"
+msgstr "ภาพ"
+
+msgid  "Add"
+msgstr "เพิ่ม"
+
+msgid  "Dashboard"
+msgstr "หน้าปัด"
+
+msgid  "EDIT"
+msgstr "แก้ไข"
+
+msgid  "Address"
+msgstr "ที่อยู่"
+
+msgid  "Content"
+msgstr "เนื้อหา"
+
+msgid  "Show on home"
+msgstr "แสดงในบ้าน"
+
+
+msgid  "Zip Code"
+msgstr "รหัสไปรษณีย์"
+
+msgid  "Gallery"
+msgstr "เฉลียง"
+
+msgid  "Call Center"
+msgstr "คอลเซ็นเตอร์"
+
+msgid  "View Map"
+msgstr "ดูแผนที่"

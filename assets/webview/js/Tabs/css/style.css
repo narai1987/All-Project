@@ -1,0 +1,169 @@
+/*
+	 Organic Tabs
+	 by Chris Coyier
+	 http://css-tricks.com
+
+
+* { margin: 0; padding: 0; }
+body { font: 12px Georgia, serif; background:#d1d2d4; }*/
+@font-face {
+   font-family:HelveticaNeue;
+   /* src: url(http://www.example.org/mycustomfont.ttf) format("truetype");*/
+	src:url(../font/HelveticaNeue.ttf) format("truetype");
+	/*background:url(../font/HelveticaBold.ttf);*/
+}
+.hide { position: absolute; top: -9999px; left: -9999px; }
+
+/* Specific to example one */
+/*#example-one { background: #eee; padding: 10px; margin: 0 0 20px 0; -moz-box-shadow: 0 0 5px #666; -webkit-box-shadow: 0 0 5px #666; }
+#example-one .nav { overflow: hidden; margin: 0 0 10px 0; }
+#example-one .nav li { width: 97px; float: left; margin: 0 10px 0 0; }
+#example-one .nav li.last { margin-right: 0; }
+#example-one .nav li a { display: block; padding: 5px; background: #959290; color: white; font-size: 10px; text-align: center; border: 0; }
+#example-one .nav li a:hover { background-color: #111; }
+#example-one ul { list-style: none; }
+#example-one ul li a { display: block; border-bottom: 1px solid #666; padding: 4px; color: #666; }
+#example-one ul li a:hover { background: #fe4902; color: white; }
+#example-one ul li:last-child a { border: none; }
+#example-one ul li.nav-one a.current, #example-one ul.featured li a:hover { background-color: #0575f4; color: white; }
+#example-one ul li.nav-two a.current, #example-one ul.core li a:hover { background-color: #d30000; color: white; }
+#example-one ul li.nav-three a.current, #example-one ul.jquerytuts li a:hover { background-color: #8d01b0; color: white; }
+#example-one ul li.nav-four a.current, #example-one ul.classics li a:hover { background-color: #FE4902; color: white; }
+*/
+/* Specific to example two */
+#example-two {	
+	/*margin-top:7px;*/
+}
+#example-two .list-wrap { 
+	background: none; 
+	padding: 0px; 
+	margin: 0 0 0px 0;
+	background:url(../images/topshadow.png) repeat-x;
+	background-size:25px 25px;
+	background-color:#e8e8e8;
+	/*background: -moz-linear-gradient(top, #a0a0a0, #e8e8e8);
+	background: -webkit-gradient(linear, left top, left bottom, from(#a0a0a0), to(#e8e8e8));
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#a0a0a0',EndColorStr='#e8e8e8');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#a0a0a0, endColorstr=#e8e8e8)";
+	background: -o-linear-gradient(top, #a0a0a0, #e8e8e8);*/
+}
+#example-two .list-wrap ul {background:none;}
+#example-two ul { list-style: none;/* background:#d1d2d4;*/}
+#example-two ul.news_list
+{
+	list-style:none;
+	font-family:HelveticaNeue;
+	font-size:10pt;
+	padding:0px !important;
+
+}
+#example-two ul.news_list li
+{
+	list-style:none;
+	vertical-align:text-top;
+	line-height:25px;
+
+}
+#example-two ul.news_list li:hover
+{
+	list-style:none;
+}
+#example-two ul.news_list li a
+{
+	background:url(../images/nws_list.png) no-repeat  left 5px;
+	padding:0px;
+	padding-left:15px;
+	text-decoration:none;
+	color:#818181;
+	display:inline-block;
+}
+#example-two ul.news_list li a:hover
+{
+	/*background:url(../images/nws_list_h.png) no-repeat left 5px;*/
+	text-decoration:none;
+	color:#24292d;
+}
+#example-two .nav { overflow: hidden;}
+#example-two .nav li { width: auto; float: right; margin:7px  0px 0px 0px; }
+#example-two .nav li.last { margin-right: 0; }
+#example-two .nav li a, #example-two .nav li a:hover { display: block; padding:3px 5px 3px 5px; color: white; font-size: 8pt; text-align: center; font-weight:bold; position:relative; margin-left:1px; margin-right:0px; text-decoration:none;
+	width:auto;
+	text-align:center;
+	font-size:10pt;
+	color:#ffffff;
+	line-height:25px;
+	border:1px solid #f0c356;
+	border-right:none;
+	border-bottom:none;
+	font-weight:bold;
+	background: #e6a70d;
+	background: -moz-linear-gradient(top, #e6a70d, #bd8409);
+	background: -webkit-gradient(linear, left top, left bottom, from(#e6a70d), to(#bd8409));
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#e6a70d',EndColorStr='#bd8409');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#e6a70d, endColorstr=#bd8409)";
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #e6a70d, #bd8409);
+	-moz-box-shadow: -1px -1px #5d6165;
+   -webkit-box-shadow: -1px -1px #5d6165;
+	box-shadow: -1px -1px #5d6165;
+	text-shadow:0px 1px 1px #8b6308;
+	text-decoration:none;
+	/*webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;*/
+	cursor:pointer;
+}
+#example-two li a.current, #example-two li a.current:hover { color: black !important;  text-decoration:none; position:relative; 
+	width:auto;
+	text-align:center;
+	font-size:10pt;
+	color:#ffcc00 !important;
+	line-height:25px;	
+	border:1px solid transparent;
+	border-right:none;
+	border-bottom:none;
+	font-weight:bold;
+	background:none;
+	-moz-box-shadow: 0px 0px transparent;
+   -webkit-box-shadow: 0px 0px transparent;
+	box-shadow: 0px 0px transparent;
+	text-shadow:0px 1px 0px #333333;
+	text-decoration:none;
+	/*background: #e6a70d;
+	background: -moz-linear-gradient(top, #e6a70d, #bd8409);
+	background: -webkit-gradient(linear, left top, left bottom, from(#e6a70d), to(#bd8409));
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#e6a70d',EndColorStr='#bd8409');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#e6a70d, endColorstr=#bd8409)";
+	background: -o-linear-gradient(top, #e6a70d, #bd8409);	
+	webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:7px;*/
+	cursor:pointer;
+}
+.table_desc
+{
+	width:100%;
+	font:10pt HelveticaNeue;
+	color:#222222;
+	line-height:25px;
+}
+.table_desc span
+{
+	color:#222222;
+	/*padding:0px 7px;*/
+}
+.bod_bootom
+{
+	border-bottom:1px solid #c1c1c3;
+	padding:0 7px;
+}
+.table_desc em
+{
+	font:10pt HelveticaNeue;
+	color:#034ea1;
+	/*padding:0px 7px;*/
+}
+.padder
+{
+	padding:0 7px;
+}

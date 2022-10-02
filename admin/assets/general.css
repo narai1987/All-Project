@@ -1,0 +1,122 @@
+@CHARSET "UTF-8";
+/******* GENERAL RESET *******/
+
+/******* GENERAL RESET *******/
+
+/******* MENU *******/
+
+#main_box_cont ul.menu, ul.menu2 {
+	list-style: none;
+	list-style-position: outside;
+	width:752px;
+	height:43px;
+	margin: 0 auto;
+	line-height:43px;
+	 left:207px;
+	 z-index:-1;
+}
+#main_box_cont ul.menu li, ul.menu2 li {
+	float: left;
+	margin-right: 5px;
+	margin-bottom: -1px;
+	font-family:ptsans;
+	font-family:Tahoma, Geneva, sans-serif\0/; /*for ie8 only*/
+	*font-family:Tahoma, Geneva, sans-serif;   /*for ie7 only*/
+	font-size:14px;
+	font-size:13px\0/;
+	*font-size:13px;
+}
+#main_box_cont ul.menu li, ul.menu2 li{
+	
+	display: block;
+	padding: 0px 10px 0px 10px;
+	background: #efefef;
+	margin-bottom: -1px;
+	position: relative;
+	color: #444444;
+	cursor: pointer;
+	height:43px;
+}
+#main_box_cont ul.menu li.active, ul.menu2 li.active{
+	top: 8px;
+	border-bottom:solid 1px #f9f9f9;
+	color: #444444;
+	line-height:27px;
+	height:36px;
+	border-radius:3px 3px 0 0;
+	z-index:10;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f9f9f9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f9f9f9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f9f9f9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#f9f9f9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f9f9f9 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#f9f9f9 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f9f9f9',GradientType=0 ); /* IE6-9 */
+	
+	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(198,198,198,1);
+	-moz-box-shadow: inset 0px 1px 1px 0px rgba(198,198,198,1);
+	box-shadow: inset 0px 1px 1px 0px rgba(198,198,198,1);
+
+}
+/******* /MENU *******/
+/******* CONTENT *******/
+.tab_content_cont{
+	width:760px;
+	margin: 0 auto;
+	
+}
+.tab_content{
+	width:960px;
+	margin: 0 auto;
+	text-align: left;
+	padding-bottom: 20px;
+	font-size: 11px;
+	margin-top:1px;
+	padding-top:15px;
+}
+.tab_content_boat{
+	width:730px;
+	text-align: left;
+	display:inline-block;
+	font-size: 11px;
+	margin-top:1px;
+	float:right;
+	border-left:solid 1px #e4e4e4;
+	padding:10px 10px 15px 20px;
+}
+
+.tab_content_trip{
+	width:960px;
+	margin: 0 auto;
+	text-align: left;
+	padding-bottom: 20px;
+	font-size: 11px;
+	margin-top:1px;
+	padding-top:15px;
+}
+/******* /CONTENT *******/
+.tab_content.news{
+	display: block;
+}
+.tab_content.tutorials{
+	display: none;
+}
+.tab_content_boat.tab1{
+	display: block;
+}
+.tab_content_boat.tab2{
+	display: none;
+}
+.tab_content_boat.tab3{
+	display: none;
+}
+.tab_content_boat.tab4{
+	display: none;
+}
+.tab_content_boat.tab5{
+	display: none;
+}
+.tab_content_boat.tab6{
+	display: none;
+}

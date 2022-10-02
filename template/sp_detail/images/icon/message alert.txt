@@ -1,0 +1,99 @@
+-Alert message-----------------------
+/*----------Message Alert-------------*/
+.alert_boxes_pink, .alert_boxes_yellow, .alert_boxes_blue , .alert_boxes_green, .alert_boxes_pink2 
+{
+	max-width:400px !important;
+	padding:3px 6px 3px 50px;
+	background:url(../images/icon/error_msg.png) no-repeat 7px center;
+	background-color:#fbe3e4;
+	border:1px solid #fbc2c4;
+	clear:both;
+	margin:0 auto;
+	margin-bottom:7px;
+	webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+}
+.alert_boxes_pink p, .alert_boxes_yellow p, .alert_boxes_blue p, .alert_boxes_green p, .alert_boxes_pink2 p
+{
+	color:#860006;
+	font-size:8pt;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:18px;
+}
+.alert_boxes_yellow
+{
+background:url(../images/icon/warning_icon.png) no-repeat 7px center;
+	background-color:#fff6bf;
+	border:1px solid #ffd324;	
+}
+.alert_boxes_yellow p
+{
+	color:#5f5200;
+}
+.alert_boxes_blue
+{
+	background:url(../images/icon/notice_icon.png) no-repeat 7px center;
+	background-color:#8fbde0;
+	border:1px solid #6bacde;
+}
+.alert_boxes_blue p
+{
+	color:#003863;
+}
+
+.alert_boxes_green
+{
+	background:url(../images/icon/success_icon.png) no-repeat 7px center;
+	background-color:#e6efc2;
+	border:1px solid #c6d880;
+}
+.alert_boxes_green p
+{
+	color:#4e6100;
+}
+.alert_boxes_pink2
+{
+	background:url(../images/icon/error_icon2.png) no-repeat 3px center;
+	background-color:#fbe3e4;
+	padding-left:30px;
+}
+
+/*----------Message Alert Close-------------*/
+
+
+
+
+
+---alert div-------------------------------------
+
+<!--/---------message box start--------/-->
+<div class="alert_boxes_pink">
+<p><strong>Error Message</strong><br />
+This is the error message.
+</p>
+</div>
+
+<div class="alert_boxes_yellow">
+<p><strong>Warning Message</strong><br />
+This is the warning message.
+</p>
+</div>
+
+<div class="alert_boxes_blue">
+<p><strong>Notice Message</strong><br />
+This is the notice message.
+</p>
+</div>
+
+<div class="alert_boxes_green">
+<p><strong>Success  Message</strong><br />
+This is the success  message.
+</p>
+</div>
+<div class="alert_boxes_pink2">
+<p><strong>Success  Message</strong>
+</p>
+</div>
+
+<!--/---------message box Close--------/-->
